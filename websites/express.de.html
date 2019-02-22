@@ -1,0 +1,2376 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Website | express.de</title>
+    <meta name="description" content="Tracking landscape on express.de. Percentage of pages you are tracked, average number of trackers per page, data-sharing with third parties and more.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="same-origin">
+
+    
+    <!-- OG params for sharable content -->
+    <meta property="og:title" content="Website | express.de" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://whotracks.me/websites/express.de.html" />
+    <meta property="og:description" content="Tracking landscape on express.de. Percentage of pages you are tracked, average number of trackers per page, data-sharing with third parties and more." />
+
+
+    <!-- Stylesheets -->
+    <link rel="icon" href="../static/img/favicon-2.ico">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="WhoTracks.Me Blog" href="https://whotracks.me/blog/feed.xml" />
+
+    <!--add this block to templates that need extra styling-->
+    
+    <link rel="stylesheet" href="../static/css/websites/profile.css">
+
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- Plotly JS -->
+    <script src="../static/js/plotly-v1.29.3.min.js"></script>
+    <!-- For relative path resolution -->
+    <script>
+        var pathToRoot = ".."
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-blue" role="navigation">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">
+                        <img class="logo" alt="Who Tracks Me" src="../static/img/logo-white.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-0">
+                <!--Collapsed under menu in mobile-->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul id="imaginary_container">
+                        <div class="input-group stylish-input-group">
+                            <input id="search-bar" class="form-control" type="text" placeholder="Search website or tracker">
+                        </div>
+                    </ul>
+
+                    <!--Site links-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li >
+                            <a class="nav-button" href="../trackers.html">TRACKERS</a>
+                        </li>
+                        <li  class="active" >
+                            <a class="nav-button" href="../websites.html">WEBSITES</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../blog.html">BLOG</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../explorer.html">EXPLORER</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+    
+
+    
+    <div class="breadcrumb-bar">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/websites.html">Websites</a></li>
+                    
+                        <li>express.de</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+
+
+
+<div id="website-page" class="overview-page">
+    <div id="overview-header">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+    <div class="row overview-info">
+        <div class="col-md-6">
+            
+            <h1>
+                <img class="icon" src="../static/img/website_globe.svg" width="23" height="23" />
+                <a target="_blank" rel="noreferrer" href="//www.express.de">express.de</a>
+            </h1>
+            
+            <p class="subtitle">
+                <span class="purple-color">10.7Mb</span> of user data from trackers per page
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <div class="overview-info-right">
+                <div class="col-md-6 trackers-info">
+                    <p>
+                        <span class="header red-color">
+                            32.8 TRACKERS</span>
+                        <br />
+                        <span class="subtitle">On average per page</span>
+                    </p>
+                </div>
+
+                <div class="col-md-6 more-info">
+                    <div>
+                        <i class="fa fa-info-circle"></i>
+                        <a href="../blog/what_is_a_tracker.html">What is a tracker?</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-info-circle"></i>
+                        <a href="../blog/where_is_the_data_from.html">Where does the data come from?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overview-header-box">
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <h3 style="padding-left: 15px">ALL TRACKERS SEEN (by category)</h3>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div id="doughnut">
+                            <div id="f788f905-c11d-4f53-b9fe-a39535e1ba71" style="height: 100%; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("f788f905-c11d-4f53-b9fe-a39535e1ba71", [{"hole": 0.65, "hoverinfo": "label", "labels": ["advertising", "cdn", "audio_video_player", "essential", "site_analytics", "misc", "hosting", "customer_interaction", "extensions", "social_media"], "marker": {"colors": ["#BF90D2", "#C0BB61", "#F86D4F", "#FC9834", "#84D7F0", "#80C87D", "#444", "#FCC156", "orange", "#87BCEF"], "line": {"color": "#FFFFFF", "width": 0}}, "textinfo": "none", "values": [57, 7, 5, 5, 5, 4, 2, 1, 1, 1], "type": "pie", "uid": "699515ca-36aa-11e9-9b29-42010a1400df"}], {"annotations": [{"align": "center", "ax": 0, "ay": 0, "bgcolor": "rgba(0,0, 0, 0)", "bordercolor": "rgba(0,0, 0, 0)", "borderpad": 5, "borderwidth": 1, "font": {"color": "#333", "family": "sans-serif", "size": 30}, "showarrow": true, "text": "88", "width": 100, "x": 0.5, "xref": "x", "y": 0.5, "yref": "y"}], "autosize": true, "margin": {"b": 0, "l": 0, "pad": 10, "r": 0, "t": 0}, "paper_bgcolor": "rgba(0,0, 0, 0)", "plot_bgcolor": "rgba(0,0, 0, 0)", "showlegend": false}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <ul class="doughnut-legend">
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #BF90D2" aria-hidden="true"></i> 
+  Advertising
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #C0BB61" aria-hidden="true"></i> 
+  Cdn
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #F86D4F" aria-hidden="true"></i> 
+  Audio Video Player
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #FC9834" aria-hidden="true"></i> 
+  Essential
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #84D7F0" aria-hidden="true"></i> 
+  Site Analytics
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #80C87D" aria-hidden="true"></i> 
+  Misc
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #444" aria-hidden="true"></i> 
+  Hosting
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #FCC156" aria-hidden="true"></i> 
+  Customer Interaction
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: orange" aria-hidden="true"></i> 
+  Extensions
+</span>
+    </li>
+
+    <li>
+        <span class="cat-item">
+  <i class="fa fa-circle" style="color: #87BCEF" aria-hidden="true"></i> 
+  Social Media
+</span>
+    </li>
+
+</ul>
+                    </div>
+
+                </div>
+                <div class="tracking-methods">
+                    <h3 style="margin-left:15px">TRACKING METHODS</h3>
+
+    <div class="col-md-11 col-offset-1">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="../static/img/cookies.svg">
+<p class="tracking-method">
+  <span class="highlight">COOKIES</span> are files placed by the website, stored in the browser
+  that is used to identify you to the website. <div>
+    <a class="learn-more" href="../blog/cookies.html">
+      Learn more
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</p>
+        </div>
+        <div class="col-md-6">
+          <img  src="../static/img/fingerprinting.svg">
+<p class="tracking-method">
+  <span class="highlight">FINGERPRINTING</span> is a unique digital signature derived from the properties of your device.
+  <div>
+    <a class="learn-more" href="../blog/fingerprinting.html">
+      Learn more
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</p>
+        </div>
+      </div>
+    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+                <div class="stats">
+                    <h3>PROPORTION OF TRAFFIC</h3>
+                    <div class="percentage">95.0%
+                    </div>
+                    <p>Page loads from express.de on which tracking occurred</p>
+                </div>
+                <div class="stats">
+                    <h3>REQUESTS TO TRACKERS</h3>
+                    <div class="percentage">
+                        64
+                    </div>
+                    <p>Tracking requests per page load</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+    
+    <section>
+        <div class="container">
+            <h3 class="title">TRACKER MAP</h3>
+            <div class="row plot-label">
+                <div class="col-md-6 col-sm-6">
+                    TRACKER CATEGORIES
+                </div>
+                <div class="col-md-6 col-sm-6 pull-right" style="text-align: right">
+                    <span class="plot-subtitle">TRACKING</span> COMPANIES
+                </div>
+            </div>
+            <div id="235f3369-690c-4baf-b6ae-21e95a195d89" style="height: 1014px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("235f3369-690c-4baf-b6ae-21e95a195d89", [{"domain": {"x": [0, 1], "y": [0, 1]}, "hoverinfo": "none", "link": {"color": ["#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede", "#dedede"], "label": ["Facebook", "Adobe Dynamic Tag Management", "INFOnline", "Google Analytics", "Seeding Alliance", "jQuery", "Stroer Digital Media", "OneTrust", "IAB Consent", "Google Tag Manager", "Nugg.Ad", "Meetrics", "mbr targeting", "Yieldlove", "Media Innovation Group", "Aggregate Knowledge", "AdScale", "YouTube", "Kontextr", "Linkpulse", "Google AdServices", "The ADEX", "Internet BillBoard", "xplosion", "Omniture (Adobe Analytics)", "DoubleClick", "Google", "Plista", "VG Wort", "emetriq", "Apester", "TradeDesk", "SMART AdServer", "Adobe Audience Manager", "OpenX", "Adform", "Google APIs", "Amazon CloudFront", "adality GmbH", "PubMatic", "Rubicon", "AppNexus", "Google Static", "StreamRail", "Improve Digital", "Google Syndication", "Criteo", "Amazon Adsystem", "Index Exchange", "Adition", "SpotXchange", "Facebook CDN", "SpringServe", "JW Player", "Yieldlab", "Google Fonts", "Azure CDN", "Microsoft Services", "SmartClip", "Instagram", "Atlas", "MediaMath", "Sizmek", "TripleLift", "StickyAds", "33Across", "Twitter", "Bidswitch", "Amazon Web Services", "Teads", "Akamai Technologies", "ScoreCard Research", "Vidible", "Advolution", "Just Premium", "Rocket Fuel", "intelliAd", "Moat"], "source": [0, 2, 4, 4, 0, 8, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 17, 0, 4, 0, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 8, 31, 0, 0, 0, 0, 8, 17, 0, 0, 0, 0, 0, 0, 0, 8, 0, 17, 0, 8, 8, 45, 0, 45, 0, 0, 0, 0, 0, 0, 52, 0, 31, 0, 8, 0, 0, 0, 0, 0, 0, 0], "target": [1, 3, 5, 6, 7, 9, 7, 10, 11, 6, 12, 13, 7, 14, 15, 16, 7, 6, 18, 19, 6, 20, 21, 22, 3, 6, 6, 23, 24, 25, 26, 27, 28, 3, 29, 30, 6, 32, 33, 34, 35, 36, 6, 37, 38, 6, 39, 32, 40, 20, 41, 1, 42, 43, 20, 6, 44, 44, 46, 1, 1, 47, 48, 49, 50, 51, 53, 54, 32, 55, 56, 57, 58, 59, 60, 48, 61, 62], "value": [98.06472715378605, 97.41055041703767, 97.06892478784685, 96.82542566916828, 93.54909051262015, 92.6441460267849, 92.01359233886355, 80.52370482091912, 74.4489469571696, 73.77841580200251, 71.50515164180189, 69.00474278134142, 68.75579218985662, 68.6122367392924, 68.4141665606658, 68.07799240428122, 66.76600461558031, 66.49343097526848, 66.39167014955207, 66.17542839490469, 65.79200814086606, 63.84946666424379, 63.31885664443677, 63.2389017099453, 62.099543893441876, 56.90974178190474, 55.815812905453285, 54.97265177808871, 54.95811451727208, 37.27171957623885, 33.14495466191783, 33.128600243499115, 33.06499972742636, 32.76698588068543, 32.72155694063346, 32.70701967981683, 26.09801748105613, 25.200341625629193, 23.54127673493122, 23.363195289927496, 23.27960604023187, 23.166942268902982, 22.202031582199126, 21.21894931947448, 21.209863531464084, 20.761025603750614, 20.448474496193057, 18.59679089967473, 18.111609819919682, 17.175773654849085, 15.427668041649254, 12.943613599607495, 12.263996656430013, 10.6085660809362, 9.838091257654776, 9.819919681633989, 8.482491686503971, 8.42252548563537, 7.1359779033635595, 7.030582762442987, 6.407297704929949, 6.343697188857189, 5.415129654194908, 5.25703694281405, 5.2116080027620795, 5.058966764187458, 4.9699260416855955, 4.751867129436136, 4.273954680089404, 4.14130217513765, 4.019552615798369, 3.872362850029983, 3.238174846904472, 3.236357689302393, 2.5749123221456998, 2.4313568715814724, 2.03158219912413, 1.9625302102451347]}, "node": {"color": ["#BF90D2", "#A069AB", "#FC9834", "#A069AB", "#84D7F0", "#A069AB", "#A069AB", "#A069AB", "#C0BB61", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#F86D4F", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#444", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#80C87D", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#87BCEF", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB", "#A069AB"], "label": ["Advertising", "Facebook", "Essential", "Adobe", "Site analytics", "Infonline", "Google", "Str\u00f6er ssp gmbh", "Cdn", "Js foundation", "Onetrust", "Iab", "Nugg.ad", "Meetrics gmbh", "Yieldlove gmbh", "Media innovation group", "Neustar ", "Audio video player", "Kontext", "Linkpulse", "Prosiebensat.1 media", "Internet billboard a.s.", "Xplosion interactive", "Plista gmbh", "Vg wort", "Emetriq gmbh", "Apester ltd", "The trade desk", "Smart adserver", "Openx software ltd.", "Adform a/s", "Hosting", "Amazon", "Arvato bertelsmann", "Pubmatic, inc.", "The rubicon project, limited", "Appnexus inc.", "Ironsource", "Improve digital international bv", "Criteo s.a.", "Index exchange, inc. ", "Rtl group", "Springserve, llc", "Jw player", "Microsoft", "Misc", "Smartclip holding ag", "Mediamath, inc.", "Sizmek technologies, inc. ", "Triplelift, inc.", "Comcast", "33across", "Social media", "Twitter", "Bidswitch gmbh", "Teads ", "Akamai technologies", "Comscore, inc.", "Verizon", "Advolution", "Justpremium bv", "Intelliad", "Oracle"], "pad": 10, "thickness": 30}, "orientation": "h", "type": "sankey", "uid": "69af8de2-36aa-11e9-9b29-42010a1400df"}], {"autosize": true, "font": {"size": 12}, "height": 1014, "margin": {"b": 40, "l": 2, "pad": 5, "r": 2, "t": 20}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h3 class="title">Trackers Seen</h3>
+            <p class="subtitle">
+               <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#frequency">Frequency</a></li>
+      <li><a data-toggle="tab" href="#company">Company</a></li>
+</ul>
+<div class="list-container">
+    <div class="tab-content">
+        <div id="frequency" class="tab-pane fade in active">
+            <ul id="multi-column-list">
+                
+                    <li>
+                        1.
+                        <a href="../trackers/facebook.html" class="entity-name">Facebook</a>
+                        <span class="percentage">98.1%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        2.
+                        <a href="../trackers/optanaon.html" class="entity-name">Optanaon by OneTrust</a>
+                        <span class="percentage">97.5%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        3.
+                        <a href="../trackers/adobe_dynamic_tag_management.html" class="entity-name">Adobe Dynamic Tag Management</a>
+                        <span class="percentage">97.4%</span>
+                        
+                        <span>
+                            Adobe
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        4.
+                        <a href="../trackers/infonline.html" class="entity-name">INFOnline</a>
+                        <span class="percentage">97.1%</span>
+                        
+                        <span>
+                            INFOnline
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        5.
+                        <a href="../trackers/google_analytics.html" class="entity-name">Google Analytics</a>
+                        <span class="percentage">96.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        6.
+                        <a href="../trackers/seeding_alliance.html" class="entity-name">Seeding Alliance</a>
+                        <span class="percentage">93.5%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        7.
+                        <a href="../trackers/jquery.html" class="entity-name">jQuery</a>
+                        <span class="percentage">92.6%</span>
+                        
+                        <span>
+                            JS Foundation
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        8.
+                        <a href="../trackers/stroer_digital_media.html" class="entity-name">Stroer Digital Media</a>
+                        <span class="percentage">92.0%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        9.
+                        <a href="../trackers/opinary.html" class="entity-name">Opinary</a>
+                        <span class="percentage">84.4%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        10.
+                        <a href="../trackers/onetrust.html" class="entity-name">OneTrust</a>
+                        <span class="percentage">80.5%</span>
+                        
+                        <span>
+                            OneTrust
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        11.
+                        <a href="../trackers/iab_consent.html" class="entity-name">IAB Consent</a>
+                        <span class="percentage">74.4%</span>
+                        
+                        <span>
+                            IAB
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        12.
+                        <a href="../trackers/google_tag_manager.html" class="entity-name">Google Tag Manager</a>
+                        <span class="percentage">73.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        13.
+                        <a href="../trackers/nugg.ad.html" class="entity-name">Nugg.Ad</a>
+                        <span class="percentage">71.5%</span>
+                        
+                        <span>
+                            Nugg.ad
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        14.
+                        <a href="../trackers/meetrics.html" class="entity-name">Meetrics</a>
+                        <span class="percentage">69.0%</span>
+                        
+                        <span>
+                            Meetrics GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        15.
+                        <a href="../trackers/mbr_targeting.html" class="entity-name">mbr targeting</a>
+                        <span class="percentage">68.8%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        16.
+                        <a href="../trackers/yieldlove.html" class="entity-name">Yieldlove</a>
+                        <span class="percentage">68.6%</span>
+                        
+                        <span>
+                            Yieldlove GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        17.
+                        <a href="../trackers/media_innovation_group.html" class="entity-name">Media Innovation Group</a>
+                        <span class="percentage">68.4%</span>
+                        
+                        <span>
+                            Media Innovation Group
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        18.
+                        <a href="../trackers/aggregate_knowledge.html" class="entity-name">Aggregate Knowledge</a>
+                        <span class="percentage">68.1%</span>
+                        
+                        <span>
+                            Neustar 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        19.
+                        <a href="../trackers/adscale.html" class="entity-name">AdScale</a>
+                        <span class="percentage">66.8%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        20.
+                        <a href="../trackers/youtube.html" class="entity-name">YouTube</a>
+                        <span class="percentage">66.5%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        21.
+                        <a href="../trackers/kontextr.html" class="entity-name">Kontextr</a>
+                        <span class="percentage">66.4%</span>
+                        
+                        <span>
+                            Kontext
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        22.
+                        <a href="../trackers/linkpulse.html" class="entity-name">Linkpulse</a>
+                        <span class="percentage">66.2%</span>
+                        
+                        <span>
+                            Linkpulse
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        23.
+                        <a href="../trackers/google_adservices.html" class="entity-name">Google AdServices</a>
+                        <span class="percentage">65.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        24.
+                        <a href="../trackers/the_adex.html" class="entity-name">The ADEX</a>
+                        <span class="percentage">63.8%</span>
+                        
+                        <span>
+                            ProSiebenSat.1 Media
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        25.
+                        <a href="../trackers/internet_billboard.html" class="entity-name">Internet BillBoard</a>
+                        <span class="percentage">63.3%</span>
+                        
+                        <span>
+                            Internet BillBoard a.s.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        26.
+                        <a href="../trackers/xplosion.html" class="entity-name">xplosion</a>
+                        <span class="percentage">63.2%</span>
+                        
+                        <span>
+                            xplosion interactive
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        27.
+                        <a href="../trackers/omniture__adobe_analytics_.html" class="entity-name">Omniture (Adobe Analytics)</a>
+                        <span class="percentage">62.1%</span>
+                        
+                        <span>
+                            Adobe
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        28.
+                        <a href="../trackers/doubleclick.html" class="entity-name">DoubleClick</a>
+                        <span class="percentage">56.9%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        29.
+                        <a href="../trackers/google.html" class="entity-name">Google</a>
+                        <span class="percentage">55.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        30.
+                        <a href="../trackers/plista.html" class="entity-name">Plista</a>
+                        <span class="percentage">55.0%</span>
+                        
+                        <span>
+                            plista GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        31.
+                        <a href="../trackers/vg_wort.html" class="entity-name">VG Wort</a>
+                        <span class="percentage">55.0%</span>
+                        
+                        <span>
+                            VG Wort
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        32.
+                        <a href="../trackers/tisoomi.html" class="entity-name">Tisoomi</a>
+                        <span class="percentage">54.4%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        33.
+                        <a href="../trackers/emetriq.html" class="entity-name">emetriq</a>
+                        <span class="percentage">37.3%</span>
+                        
+                        <span>
+                            emetriq GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        34.
+                        <a href="../trackers/apester.html" class="entity-name">Apester</a>
+                        <span class="percentage">33.1%</span>
+                        
+                        <span>
+                            Apester Ltd
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        35.
+                        <a href="../trackers/tradedesk.html" class="entity-name">TradeDesk</a>
+                        <span class="percentage">33.1%</span>
+                        
+                        <span>
+                            The Trade Desk
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        36.
+                        <a href="../trackers/smart_adserver.html" class="entity-name">SMART AdServer</a>
+                        <span class="percentage">33.1%</span>
+                        
+                        <span>
+                            Smart Adserver
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        37.
+                        <a href="../trackers/adobe_audience_manager.html" class="entity-name">Adobe Audience Manager</a>
+                        <span class="percentage">32.8%</span>
+                        
+                        <span>
+                            Adobe
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        38.
+                        <a href="../trackers/openx.html" class="entity-name">OpenX</a>
+                        <span class="percentage">32.7%</span>
+                        
+                        <span>
+                            OpenX Software Ltd.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        39.
+                        <a href="../trackers/adform.html" class="entity-name">Adform</a>
+                        <span class="percentage">32.7%</span>
+                        
+                        <span>
+                            Adform A/S
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        40.
+                        <a href="../trackers/googleapis.com.html" class="entity-name">Google APIs</a>
+                        <span class="percentage">26.1%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        41.
+                        <a href="../trackers/amazon_cloudfront.html" class="entity-name">Amazon CloudFront</a>
+                        <span class="percentage">25.2%</span>
+                        
+                        <span>
+                            Amazon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        42.
+                        <a href="../trackers/adality_gmbh.html" class="entity-name">adality GmbH</a>
+                        <span class="percentage">23.5%</span>
+                        
+                        <span>
+                            Arvato Bertelsmann
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        43.
+                        <a href="../trackers/pubmatic.html" class="entity-name">PubMatic</a>
+                        <span class="percentage">23.4%</span>
+                        
+                        <span>
+                            PubMatic, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        44.
+                        <a href="../trackers/rubicon.html" class="entity-name">Rubicon</a>
+                        <span class="percentage">23.3%</span>
+                        
+                        <span>
+                            The Rubicon Project, Limited
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        45.
+                        <a href="../trackers/appnexus.html" class="entity-name">AppNexus</a>
+                        <span class="percentage">23.2%</span>
+                        
+                        <span>
+                            AppNexus Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        46.
+                        <a href="../trackers/gstatic.html" class="entity-name">Google Static</a>
+                        <span class="percentage">22.2%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        47.
+                        <a href="../trackers/streamrail.com.html" class="entity-name">StreamRail</a>
+                        <span class="percentage">21.2%</span>
+                        
+                        <span>
+                            ironSource
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        48.
+                        <a href="../trackers/improve_digital.html" class="entity-name">Improve Digital</a>
+                        <span class="percentage">21.2%</span>
+                        
+                        <span>
+                            Improve Digital International BV
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        49.
+                        <a href="../trackers/google_syndication.html" class="entity-name">Google Syndication</a>
+                        <span class="percentage">20.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        50.
+                        <a href="../trackers/criteo.html" class="entity-name">Criteo</a>
+                        <span class="percentage">20.4%</span>
+                        
+                        <span>
+                            Criteo S.A.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        51.
+                        <a href="../trackers/amazon_adsystem.html" class="entity-name">Amazon Adsystem</a>
+                        <span class="percentage">18.6%</span>
+                        
+                        <span>
+                            Amazon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        52.
+                        <a href="../trackers/index_exchange_.html" class="entity-name">Index Exchange</a>
+                        <span class="percentage">18.1%</span>
+                        
+                        <span>
+                            Index Exchange, Inc. 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        53.
+                        <a href="../trackers/tremor_video.html" class="entity-name">Tremor Video</a>
+                        <span class="percentage">17.9%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        54.
+                        <a href="../trackers/adition.html" class="entity-name">Adition</a>
+                        <span class="percentage">17.2%</span>
+                        
+                        <span>
+                            ProSiebenSat.1 Media
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        55.
+                        <a href="../trackers/spotxchange.html" class="entity-name">SpotXchange</a>
+                        <span class="percentage">15.4%</span>
+                        
+                        <span>
+                            RTL Group
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        56.
+                        <a href="../trackers/facebook_cdn.html" class="entity-name">Facebook CDN</a>
+                        <span class="percentage">12.9%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        57.
+                        <a href="../trackers/springserve.html" class="entity-name">SpringServe</a>
+                        <span class="percentage">12.3%</span>
+                        
+                        <span>
+                            SpringServe, LLC
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        58.
+                        <a href="../trackers/glomex.com.html" class="entity-name">Glomex</a>
+                        <span class="percentage">10.8%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        59.
+                        <a href="../trackers/jw_player.html" class="entity-name">JW Player</a>
+                        <span class="percentage">10.6%</span>
+                        
+                        <span>
+                            JW Player
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        60.
+                        <a href="../trackers/yieldlab.html" class="entity-name">Yieldlab</a>
+                        <span class="percentage">9.8%</span>
+                        
+                        <span>
+                            ProSiebenSat.1 Media
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        61.
+                        <a href="../trackers/google_fonts.html" class="entity-name">Google Fonts</a>
+                        <span class="percentage">9.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        62.
+                        <a href="../trackers/sevenone_media.html" class="entity-name">SevenOne Media</a>
+                        <span class="percentage">9.0%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        63.
+                        <a href="../trackers/azureedge.net.html" class="entity-name">Azure CDN</a>
+                        <span class="percentage">8.5%</span>
+                        
+                        <span>
+                            Microsoft
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        64.
+                        <a href="../trackers/microsoft.html" class="entity-name">Microsoft Services</a>
+                        <span class="percentage">8.4%</span>
+                        
+                        <span>
+                            Microsoft
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        65.
+                        <a href="../trackers/smartclip.html" class="entity-name">SmartClip</a>
+                        <span class="percentage">7.1%</span>
+                        
+                        <span>
+                            smartclip Holding AG
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        66.
+                        <a href="../trackers/instagram_com.html" class="entity-name">Instagram</a>
+                        <span class="percentage">7.0%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        67.
+                        <a href="../trackers/atlas.html" class="entity-name">Atlas</a>
+                        <span class="percentage">6.4%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        68.
+                        <a href="../trackers/mediamath.html" class="entity-name">MediaMath</a>
+                        <span class="percentage">6.3%</span>
+                        
+                        <span>
+                            MediaMath, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        69.
+                        <a href="../trackers/sizmek.html" class="entity-name">Sizmek</a>
+                        <span class="percentage">5.4%</span>
+                        
+                        <span>
+                            Sizmek Technologies, Inc. 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        70.
+                        <a href="../trackers/triplelift.html" class="entity-name">TripleLift</a>
+                        <span class="percentage">5.3%</span>
+                        
+                        <span>
+                            TripleLift, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        71.
+                        <a href="../trackers/stickyads.html" class="entity-name">StickyAds</a>
+                        <span class="percentage">5.2%</span>
+                        
+                        <span>
+                            Comcast
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        72.
+                        <a href="../trackers/sixt-neuwagen.de.html" class="entity-name">sixt-neuwagen.de</a>
+                        <span class="percentage">5.1%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        73.
+                        <a href="../trackers/33across.html" class="entity-name">33Across</a>
+                        <span class="percentage">5.1%</span>
+                        
+                        <span>
+                            33Across
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        74.
+                        <a href="../trackers/twitter.html" class="entity-name">Twitter</a>
+                        <span class="percentage">5.0%</span>
+                        
+                        <span>
+                            Twitter
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        75.
+                        <a href="../trackers/bidswitch.html" class="entity-name">Bidswitch</a>
+                        <span class="percentage">4.8%</span>
+                        
+                        <span>
+                            BIDSWITCH GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        76.
+                        <a href="../trackers/atg_group.html" class="entity-name">ATG Ad Tech Group</a>
+                        <span class="percentage">4.6%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        77.
+                        <a href="../trackers/amazon_web_services.html" class="entity-name">Amazon Web Services</a>
+                        <span class="percentage">4.3%</span>
+                        
+                        <span>
+                            Amazon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        78.
+                        <a href="../trackers/teads.html" class="entity-name">Teads</a>
+                        <span class="percentage">4.1%</span>
+                        
+                        <span>
+                            Teads 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        79.
+                        <a href="../trackers/akamai_technologies.html" class="entity-name">Akamai Technologies</a>
+                        <span class="percentage">4.0%</span>
+                        
+                        <span>
+                            Akamai Technologies
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        80.
+                        <a href="../trackers/rtl_group.html" class="entity-name">RTL Group</a>
+                        <span class="percentage">3.9%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        81.
+                        <a href="../trackers/scorecard_research_beacon.html" class="entity-name">ScoreCard Research</a>
+                        <span class="percentage">3.9%</span>
+                        
+                        <span>
+                            comScore, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        82.
+                        <a href="../trackers/vidible.html" class="entity-name">Vidible</a>
+                        <span class="percentage">3.2%</span>
+                        
+                        <span>
+                            Verizon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        83.
+                        <a href="../trackers/advolution.html" class="entity-name">Advolution</a>
+                        <span class="percentage">3.2%</span>
+                        
+                        <span>
+                            Advolution
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        84.
+                        <a href="../trackers/just_premium.html" class="entity-name">Just Premium</a>
+                        <span class="percentage">2.6%</span>
+                        
+                        <span>
+                            Justpremium BV
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        85.
+                        <a href="../trackers/rocket_fuel.html" class="entity-name">Rocket Fuel</a>
+                        <span class="percentage">2.4%</span>
+                        
+                        <span>
+                            Sizmek Technologies, Inc. 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        86.
+                        <a href="../trackers/intelliad.html" class="entity-name">intelliAd</a>
+                        <span class="percentage">2.0%</span>
+                        
+                        <span>
+                            intelliAd
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        87.
+                        <a href="../trackers/moat.html" class="entity-name">Moat</a>
+                        <span class="percentage">2.0%</span>
+                        
+                        <span>
+                            Oracle
+                        </span>
+                        
+                    </li>
+                
+            </ul>
+        </div>
+
+        <div id="company" class="tab-pane fade">
+            <ul id="multi-column-list">
+                
+                    <li>
+                        1.
+                        <a  href="../trackers/optanaon.html" class="entity-name">Optanaon by OneTrust</a>
+                        <span class="percentage">97.5%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        2.
+                        <a  href="../trackers/opinary.html" class="entity-name">Opinary</a>
+                        <span class="percentage">84.4%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        3.
+                        <a  href="../trackers/tisoomi.html" class="entity-name">Tisoomi</a>
+                        <span class="percentage">54.4%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        4.
+                        <a  href="../trackers/tremor_video.html" class="entity-name">Tremor Video</a>
+                        <span class="percentage">17.9%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        5.
+                        <a  href="../trackers/glomex.com.html" class="entity-name">Glomex</a>
+                        <span class="percentage">10.8%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        6.
+                        <a  href="../trackers/sevenone_media.html" class="entity-name">SevenOne Media</a>
+                        <span class="percentage">9.0%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        7.
+                        <a  href="../trackers/sixt-neuwagen.de.html" class="entity-name">sixt-neuwagen.de</a>
+                        <span class="percentage">5.1%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        8.
+                        <a  href="../trackers/atg_group.html" class="entity-name">ATG Ad Tech Group</a>
+                        <span class="percentage">4.6%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        9.
+                        <a  href="../trackers/rtl_group.html" class="entity-name">RTL Group</a>
+                        <span class="percentage">3.9%</span>
+                        
+                            <span>
+                                -
+                            </span>
+                        
+                    </li>
+                
+                    <li>
+                        10.
+                        <a  href="../trackers/33across.html" class="entity-name">33Across</a>
+                        <span class="percentage">5.1%</span>
+                        
+                        <span>
+                            33Across
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        11.
+                        <a  href="../trackers/adform.html" class="entity-name">Adform</a>
+                        <span class="percentage">32.7%</span>
+                        
+                        <span>
+                            Adform A/S
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        12.
+                        <a  href="../trackers/adobe_dynamic_tag_management.html" class="entity-name">Adobe Dynamic Tag Management</a>
+                        <span class="percentage">97.4%</span>
+                        
+                        <span>
+                            Adobe
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        13.
+                        <a  href="../trackers/omniture__adobe_analytics_.html" class="entity-name">Omniture (Adobe Analytics)</a>
+                        <span class="percentage">62.1%</span>
+                        
+                        <span>
+                            Adobe
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        14.
+                        <a  href="../trackers/adobe_audience_manager.html" class="entity-name">Adobe Audience Manager</a>
+                        <span class="percentage">32.8%</span>
+                        
+                        <span>
+                            Adobe
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        15.
+                        <a  href="../trackers/advolution.html" class="entity-name">Advolution</a>
+                        <span class="percentage">3.2%</span>
+                        
+                        <span>
+                            Advolution
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        16.
+                        <a  href="../trackers/akamai_technologies.html" class="entity-name">Akamai Technologies</a>
+                        <span class="percentage">4.0%</span>
+                        
+                        <span>
+                            Akamai Technologies
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        17.
+                        <a  href="../trackers/amazon_cloudfront.html" class="entity-name">Amazon CloudFront</a>
+                        <span class="percentage">25.2%</span>
+                        
+                        <span>
+                            Amazon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        18.
+                        <a  href="../trackers/amazon_adsystem.html" class="entity-name">Amazon Adsystem</a>
+                        <span class="percentage">18.6%</span>
+                        
+                        <span>
+                            Amazon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        19.
+                        <a  href="../trackers/amazon_web_services.html" class="entity-name">Amazon Web Services</a>
+                        <span class="percentage">4.3%</span>
+                        
+                        <span>
+                            Amazon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        20.
+                        <a  href="../trackers/apester.html" class="entity-name">Apester</a>
+                        <span class="percentage">33.1%</span>
+                        
+                        <span>
+                            Apester Ltd
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        21.
+                        <a  href="../trackers/appnexus.html" class="entity-name">AppNexus</a>
+                        <span class="percentage">23.2%</span>
+                        
+                        <span>
+                            AppNexus Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        22.
+                        <a  href="../trackers/adality_gmbh.html" class="entity-name">adality GmbH</a>
+                        <span class="percentage">23.5%</span>
+                        
+                        <span>
+                            Arvato Bertelsmann
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        23.
+                        <a  href="../trackers/bidswitch.html" class="entity-name">Bidswitch</a>
+                        <span class="percentage">4.8%</span>
+                        
+                        <span>
+                            BIDSWITCH GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        24.
+                        <a  href="../trackers/stickyads.html" class="entity-name">StickyAds</a>
+                        <span class="percentage">5.2%</span>
+                        
+                        <span>
+                            Comcast
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        25.
+                        <a  href="../trackers/scorecard_research_beacon.html" class="entity-name">ScoreCard Research</a>
+                        <span class="percentage">3.9%</span>
+                        
+                        <span>
+                            comScore, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        26.
+                        <a  href="../trackers/criteo.html" class="entity-name">Criteo</a>
+                        <span class="percentage">20.4%</span>
+                        
+                        <span>
+                            Criteo S.A.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        27.
+                        <a  href="../trackers/emetriq.html" class="entity-name">emetriq</a>
+                        <span class="percentage">37.3%</span>
+                        
+                        <span>
+                            emetriq GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        28.
+                        <a  href="../trackers/facebook.html" class="entity-name">Facebook</a>
+                        <span class="percentage">98.1%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        29.
+                        <a  href="../trackers/facebook_cdn.html" class="entity-name">Facebook CDN</a>
+                        <span class="percentage">12.9%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        30.
+                        <a  href="../trackers/instagram_com.html" class="entity-name">Instagram</a>
+                        <span class="percentage">7.0%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        31.
+                        <a  href="../trackers/atlas.html" class="entity-name">Atlas</a>
+                        <span class="percentage">6.4%</span>
+                        
+                        <span>
+                            Facebook
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        32.
+                        <a  href="../trackers/google_analytics.html" class="entity-name">Google Analytics</a>
+                        <span class="percentage">96.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        33.
+                        <a  href="../trackers/google_tag_manager.html" class="entity-name">Google Tag Manager</a>
+                        <span class="percentage">73.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        34.
+                        <a  href="../trackers/youtube.html" class="entity-name">YouTube</a>
+                        <span class="percentage">66.5%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        35.
+                        <a  href="../trackers/google_adservices.html" class="entity-name">Google AdServices</a>
+                        <span class="percentage">65.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        36.
+                        <a  href="../trackers/doubleclick.html" class="entity-name">DoubleClick</a>
+                        <span class="percentage">56.9%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        37.
+                        <a  href="../trackers/google.html" class="entity-name">Google</a>
+                        <span class="percentage">55.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        38.
+                        <a  href="../trackers/googleapis.com.html" class="entity-name">Google APIs</a>
+                        <span class="percentage">26.1%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        39.
+                        <a  href="../trackers/gstatic.html" class="entity-name">Google Static</a>
+                        <span class="percentage">22.2%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        40.
+                        <a  href="../trackers/google_syndication.html" class="entity-name">Google Syndication</a>
+                        <span class="percentage">20.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        41.
+                        <a  href="../trackers/google_fonts.html" class="entity-name">Google Fonts</a>
+                        <span class="percentage">9.8%</span>
+                        
+                        <span>
+                            Google
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        42.
+                        <a  href="../trackers/iab_consent.html" class="entity-name">IAB Consent</a>
+                        <span class="percentage">74.4%</span>
+                        
+                        <span>
+                            IAB
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        43.
+                        <a  href="../trackers/improve_digital.html" class="entity-name">Improve Digital</a>
+                        <span class="percentage">21.2%</span>
+                        
+                        <span>
+                            Improve Digital International BV
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        44.
+                        <a  href="../trackers/index_exchange_.html" class="entity-name">Index Exchange</a>
+                        <span class="percentage">18.1%</span>
+                        
+                        <span>
+                            Index Exchange, Inc. 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        45.
+                        <a  href="../trackers/infonline.html" class="entity-name">INFOnline</a>
+                        <span class="percentage">97.1%</span>
+                        
+                        <span>
+                            INFOnline
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        46.
+                        <a  href="../trackers/intelliad.html" class="entity-name">intelliAd</a>
+                        <span class="percentage">2.0%</span>
+                        
+                        <span>
+                            intelliAd
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        47.
+                        <a  href="../trackers/internet_billboard.html" class="entity-name">Internet BillBoard</a>
+                        <span class="percentage">63.3%</span>
+                        
+                        <span>
+                            Internet BillBoard a.s.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        48.
+                        <a  href="../trackers/streamrail.com.html" class="entity-name">StreamRail</a>
+                        <span class="percentage">21.2%</span>
+                        
+                        <span>
+                            ironSource
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        49.
+                        <a  href="../trackers/jquery.html" class="entity-name">jQuery</a>
+                        <span class="percentage">92.6%</span>
+                        
+                        <span>
+                            JS Foundation
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        50.
+                        <a  href="../trackers/just_premium.html" class="entity-name">Just Premium</a>
+                        <span class="percentage">2.6%</span>
+                        
+                        <span>
+                            Justpremium BV
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        51.
+                        <a  href="../trackers/jw_player.html" class="entity-name">JW Player</a>
+                        <span class="percentage">10.6%</span>
+                        
+                        <span>
+                            JW Player
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        52.
+                        <a  href="../trackers/kontextr.html" class="entity-name">Kontextr</a>
+                        <span class="percentage">66.4%</span>
+                        
+                        <span>
+                            Kontext
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        53.
+                        <a  href="../trackers/linkpulse.html" class="entity-name">Linkpulse</a>
+                        <span class="percentage">66.2%</span>
+                        
+                        <span>
+                            Linkpulse
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        54.
+                        <a  href="../trackers/media_innovation_group.html" class="entity-name">Media Innovation Group</a>
+                        <span class="percentage">68.4%</span>
+                        
+                        <span>
+                            Media Innovation Group
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        55.
+                        <a  href="../trackers/mediamath.html" class="entity-name">MediaMath</a>
+                        <span class="percentage">6.3%</span>
+                        
+                        <span>
+                            MediaMath, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        56.
+                        <a  href="../trackers/meetrics.html" class="entity-name">Meetrics</a>
+                        <span class="percentage">69.0%</span>
+                        
+                        <span>
+                            Meetrics GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        57.
+                        <a  href="../trackers/azureedge.net.html" class="entity-name">Azure CDN</a>
+                        <span class="percentage">8.5%</span>
+                        
+                        <span>
+                            Microsoft
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        58.
+                        <a  href="../trackers/microsoft.html" class="entity-name">Microsoft Services</a>
+                        <span class="percentage">8.4%</span>
+                        
+                        <span>
+                            Microsoft
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        59.
+                        <a  href="../trackers/aggregate_knowledge.html" class="entity-name">Aggregate Knowledge</a>
+                        <span class="percentage">68.1%</span>
+                        
+                        <span>
+                            Neustar 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        60.
+                        <a  href="../trackers/nugg.ad.html" class="entity-name">Nugg.Ad</a>
+                        <span class="percentage">71.5%</span>
+                        
+                        <span>
+                            Nugg.ad
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        61.
+                        <a  href="../trackers/onetrust.html" class="entity-name">OneTrust</a>
+                        <span class="percentage">80.5%</span>
+                        
+                        <span>
+                            OneTrust
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        62.
+                        <a  href="../trackers/openx.html" class="entity-name">OpenX</a>
+                        <span class="percentage">32.7%</span>
+                        
+                        <span>
+                            OpenX Software Ltd.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        63.
+                        <a  href="../trackers/moat.html" class="entity-name">Moat</a>
+                        <span class="percentage">2.0%</span>
+                        
+                        <span>
+                            Oracle
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        64.
+                        <a  href="../trackers/plista.html" class="entity-name">Plista</a>
+                        <span class="percentage">55.0%</span>
+                        
+                        <span>
+                            plista GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        65.
+                        <a  href="../trackers/the_adex.html" class="entity-name">The ADEX</a>
+                        <span class="percentage">63.8%</span>
+                        
+                        <span>
+                            ProSiebenSat.1 Media
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        66.
+                        <a  href="../trackers/adition.html" class="entity-name">Adition</a>
+                        <span class="percentage">17.2%</span>
+                        
+                        <span>
+                            ProSiebenSat.1 Media
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        67.
+                        <a  href="../trackers/yieldlab.html" class="entity-name">Yieldlab</a>
+                        <span class="percentage">9.8%</span>
+                        
+                        <span>
+                            ProSiebenSat.1 Media
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        68.
+                        <a  href="../trackers/pubmatic.html" class="entity-name">PubMatic</a>
+                        <span class="percentage">23.4%</span>
+                        
+                        <span>
+                            PubMatic, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        69.
+                        <a  href="../trackers/spotxchange.html" class="entity-name">SpotXchange</a>
+                        <span class="percentage">15.4%</span>
+                        
+                        <span>
+                            RTL Group
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        70.
+                        <a  href="../trackers/rubicon.html" class="entity-name">Rubicon</a>
+                        <span class="percentage">23.3%</span>
+                        
+                        <span>
+                            The Rubicon Project, Limited
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        71.
+                        <a  href="../trackers/sizmek.html" class="entity-name">Sizmek</a>
+                        <span class="percentage">5.4%</span>
+                        
+                        <span>
+                            Sizmek Technologies, Inc. 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        72.
+                        <a  href="../trackers/rocket_fuel.html" class="entity-name">Rocket Fuel</a>
+                        <span class="percentage">2.4%</span>
+                        
+                        <span>
+                            Sizmek Technologies, Inc. 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        73.
+                        <a  href="../trackers/smart_adserver.html" class="entity-name">SMART AdServer</a>
+                        <span class="percentage">33.1%</span>
+                        
+                        <span>
+                            Smart Adserver
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        74.
+                        <a  href="../trackers/smartclip.html" class="entity-name">SmartClip</a>
+                        <span class="percentage">7.1%</span>
+                        
+                        <span>
+                            smartclip Holding AG
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        75.
+                        <a  href="../trackers/springserve.html" class="entity-name">SpringServe</a>
+                        <span class="percentage">12.3%</span>
+                        
+                        <span>
+                            SpringServe, LLC
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        76.
+                        <a  href="../trackers/seeding_alliance.html" class="entity-name">Seeding Alliance</a>
+                        <span class="percentage">93.5%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        77.
+                        <a  href="../trackers/stroer_digital_media.html" class="entity-name">Stroer Digital Media</a>
+                        <span class="percentage">92.0%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        78.
+                        <a  href="../trackers/mbr_targeting.html" class="entity-name">mbr targeting</a>
+                        <span class="percentage">68.8%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        79.
+                        <a  href="../trackers/adscale.html" class="entity-name">AdScale</a>
+                        <span class="percentage">66.8%</span>
+                        
+                        <span>
+                            Ströer SSP GmbH
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        80.
+                        <a  href="../trackers/teads.html" class="entity-name">Teads</a>
+                        <span class="percentage">4.1%</span>
+                        
+                        <span>
+                            Teads 
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        81.
+                        <a  href="../trackers/tradedesk.html" class="entity-name">TradeDesk</a>
+                        <span class="percentage">33.1%</span>
+                        
+                        <span>
+                            The Trade Desk
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        82.
+                        <a  href="../trackers/triplelift.html" class="entity-name">TripleLift</a>
+                        <span class="percentage">5.3%</span>
+                        
+                        <span>
+                            TripleLift, Inc.
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        83.
+                        <a  href="../trackers/twitter.html" class="entity-name">Twitter</a>
+                        <span class="percentage">5.0%</span>
+                        
+                        <span>
+                            Twitter
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        84.
+                        <a  href="../trackers/vidible.html" class="entity-name">Vidible</a>
+                        <span class="percentage">3.2%</span>
+                        
+                        <span>
+                            Verizon
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        85.
+                        <a  href="../trackers/vg_wort.html" class="entity-name">VG Wort</a>
+                        <span class="percentage">55.0%</span>
+                        
+                        <span>
+                            VG Wort
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        86.
+                        <a  href="../trackers/xplosion.html" class="entity-name">xplosion</a>
+                        <span class="percentage">63.2%</span>
+                        
+                        <span>
+                            xplosion interactive
+                        </span>
+                        
+                    </li>
+                
+                    <li>
+                        87.
+                        <a  href="../trackers/yieldlove.html" class="entity-name">Yieldlove</a>
+                        <span class="percentage">68.6%</span>
+                        
+                        <span>
+                            Yieldlove GmbH
+                        </span>
+                        
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+            </p>
+        </div>
+    </section>
+    
+</div>
+
+
+
+
+    
+
+    
+    <div class="breadcrumb-bar">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/websites.html">Websites</a></li>
+                    
+                        <li>express.de</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul>
+          <li>
+            <i class="fa fa fa-github"></i>
+            <a target="_blank" rel="noreferrer" href="https://github.com/cliqz-oss/whotracks.me">
+              Get the data
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-twitter"></i>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/WhoTracks_me">
+              @WhoTracks_me
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-rss"></i>
+            <a target="_blank" type="application/rss+xml" href="/blog/feed.xml">
+              RSS
+            </a>
+          </li>
+
+          <li>
+            <i class="fa fa fa-balance-scale"></i>
+            <a href="/privacy-policy.html">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul class="margin-left">
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/about">
+              About
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/download">
+              Cliqz browser
+            </a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://www.ghostery.com/en/products/">
+              Ghostery add-on
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12 logos">
+        <a href="https://cliqz.com/en/" target="_blank">
+          <span class="cliqz-logo"></span>
+        </a>
+        <a href="https://www.ghostery.com/" target="_blank">
+          <span class="ghostery-logo"></span>
+        </a>
+
+        <div class="copyright">
+          &copy; Cliqz - All rights reserved.
+        </div>
+        <div>Last updated on 22.02.2019</div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Local javascript modules -->
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../static/js/search.js"></script>
+
+
+</footer>
+<!-- END OF FOOTER -->

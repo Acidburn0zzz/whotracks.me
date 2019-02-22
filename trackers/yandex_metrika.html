@@ -1,0 +1,658 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tracker | Yandex Metrika</title>
+    <meta name="description" content="Tracker profile of Yandex Metrika. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="same-origin">
+
+    
+    <!-- OG params for sharable content -->
+    <meta property="og:title" content="Tracker | Yandex Metrika">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://whotracks.me/trackers/yandex_metrika.html">
+    <meta property="og:description" content="Tracker profile of Yandex Metrika. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+
+    <!-- Stylesheets -->
+    <link rel="icon" href="../static/img/favicon-2.ico">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="WhoTracks.Me Blog" href="https://whotracks.me/blog/feed.xml" />
+
+    <!--add this block to templates that need extra styling-->
+    
+    <link rel="stylesheet" href="../static/css/trackers/profile.css">
+
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- Plotly JS -->
+    <script src="../static/js/plotly-v1.29.3.min.js"></script>
+    <!-- For relative path resolution -->
+    <script>
+        var pathToRoot = ".."
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-blue" role="navigation">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">
+                        <img class="logo" alt="Who Tracks Me" src="../static/img/logo-white.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-0">
+                <!--Collapsed under menu in mobile-->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul id="imaginary_container">
+                        <div class="input-group stylish-input-group">
+                            <input id="search-bar" class="form-control" type="text" placeholder="Search website or tracker">
+                        </div>
+                    </ul>
+
+                    <!--Site links-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li  class="active" >
+                            <a class="nav-button" href="../trackers.html">TRACKERS</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../websites.html">WEBSITES</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../blog.html">BLOG</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../explorer.html">EXPLORER</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>Yandex Metrika</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var operates_under_selector = '#operates-under p',
+        $operates_under_list = $(operates_under_selector),
+        operates_list_size = $operates_under_list.length,
+        items_to_show = 2,
+        $expand = $('.operates-expand'),
+        $collapse = $('.operates-collapse');
+    $(operates_under_selector + ':lt(' +items_to_show+')').show();
+    $expand.click(function(e) {
+        items_to_show = operates_list_size;
+        $(operates_under_selector + ':lt('+items_to_show+')').show();
+        if(items_to_show === operates_list_size) {
+            $collapse.removeClass('hidden');
+            $expand.addClass('hidden');
+        }
+    });
+
+    $collapse.click(function() {
+        $(this).addClass('hidden');
+        $expand.removeClass('hidden');
+        $operates_under_list.not(':lt(2)').hide();
+    });
+
+});
+</script>
+<div id="tracker-page" class="overview-page">
+    <div id="overview-header">
+        <div class="container">
+            <div class="row overview-info inverse">
+                <div class="col-md-6 col-sm-6">
+  <h1>Yandex Metrika</h1>
+  
+    <p class="header">Owned by Yandex</p>
+  
+  
+    <p id="domain">
+        <a target="_blank" rel="noreferrer"  href="https://metrica.yandex.com/">https://metrica.yandex.com/</a>
+    </p>
+  
+</div>
+
+<div class="col-md-6 col-sm-6">
+  <div class="overview-info-right">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <p class="header">TRACKER RANK</p>
+        <p class="tracker-rank">
+          <span class="emphasis">69</span>
+          /1114
+        </p>
+        <p class="description">Commonly prevalent</p>
+      </div>
+
+      <div class="col-md-6 col-sm-6">
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="overview-header-box">
+  <div class="row">
+
+
+    <!-- LEFT COLUMN -->
+    <div class="col-md-6 col-sm-6">
+        <h3>TRACKER REACH</h3>
+        <div class="trend">
+          <img class="trackers-icon" src="../static/img/page.svg">
+          <span class="percentage">
+            1.4%
+            <span class="graph"><div id="3f95dcb5-8532-4bd7-91a7-79e157ccc934" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("3f95dcb5-8532-4bd7-91a7-79e157ccc934", [{"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "lines", "opacity": 1, "text": ["1.41% on Jan 19"], "x": ["2019-01-01"], "y": [1.413113953472518], "type": "scatter", "uid": "55719f5a-36aa-11e9-bb06-42010a1400df"}, {"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "markers", "opacity": 1, "text": ["1.41% on Jan 19"], "x": ["2019-01-01"], "y": [1.413113953472518], "type": "scatter", "uid": "5571a25c-36aa-11e9-bb06-42010a1400df"}], {"height": 100, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "rgba(0,0, 0, 0)", "font": {"color": "#BFCBD6", "family": "monospace", "size": 13}}, "margin": {"b": 40, "l": 10, "pad": 5, "r": 10, "t": 30}, "showlegend": false, "width": 153, "xaxis": {"autorange": true, "hoverformat": "%b %y", "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}, "yaxis": {"range": [1.271802558125266, 1.6250810464933954], "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+
+          <p class="description">of web traffic is tracked by Yandex Metrika</p>
+      </div>
+      <div class="trend">
+          <img class="trackers-icon" src="../static/img/domain.svg">
+          <span class="percentage">
+            892
+            <span class="graph"><div id="014ae42b-4f7f-44f6-981b-0e18ac981716" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("014ae42b-4f7f-44f6-981b-0e18ac981716", [{"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "lines", "opacity": 1, "text": ["892.00% on Jan 19"], "x": ["2019-01-01"], "y": [892], "type": "scatter", "uid": "557df480-36aa-11e9-bb06-42010a1400df"}, {"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "markers", "opacity": 1, "text": ["892.00% on Jan 19"], "x": ["2019-01-01"], "y": [892], "type": "scatter", "uid": "557df778-36aa-11e9-bb06-42010a1400df"}], {"height": 100, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "rgba(0,0, 0, 0)", "font": {"color": "#BFCBD6", "family": "monospace", "size": 13}}, "margin": {"b": 40, "l": 10, "pad": 5, "r": 10, "t": 30}, "showlegend": false, "width": 153, "xaxis": {"autorange": true, "hoverformat": "%b %y", "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}, "yaxis": {"range": [802.8000000000001, 1025.8], "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+          <p class="description">of the top 10,000 sites seen loading the Yandex Metrika tracker</p>
+      </div>
+      <p class="subtitle">
+        
+          Data from January 2019.
+        
+      </p>
+    </div>
+
+
+    <!-- Right COLUMN -->
+    <div class="col-md-6 col-sm-6">
+          <h3>SEEN ON THESE TYPES OF WEBSITES</h3>
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">34% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="43.376865671641795" aria-valuemin="0" aria-valuemax="100" style="width: 43.376865671641795%">
+                Entertainment
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">20% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="25.652985074626862" aria-valuemin="0" aria-valuemax="100" style="width: 25.652985074626862%">
+                Business
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">17% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="21.455223880597014" aria-valuemin="0" aria-valuemax="100" style="width: 21.455223880597014%">
+                News and Portals
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">11% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="14.925373134328359" aria-valuemin="0" aria-valuemax="100" style="width: 14.925373134328359%">
+                E-Commerce
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">10% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="13.059701492537314" aria-valuemin="0" aria-valuemax="100" style="width: 13.059701492537314%">
+                Adult
+                </div>
+              </div>
+            </div>
+            
+          
+
+          <h3>TRACKING TYPE</h3>
+          <div class="row tracking-methods">
+            
+              <div  class="col-md-8" >
+                <img src="../static/img/cookies.svg">
+<p class="tracking-method">
+  <span class="highlight">COOKIES</span> are files placed by the website, stored in the browser
+  that is used to identify you to the website. <div>
+    <a class="learn-more" href="../blog/cookies.html">
+      Learn more
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</p>
+              </div>
+            
+
+            
+            
+          </div>
+    </div>
+  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="similar-trackers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="row tracker-category">
+                        <div class="col-md-11">
+                        <h4>TRACKER CATEGORY</h4>
+                        
+                            <span class="cat-item">
+                                <i class="fa fa-circle" style="color: #84D7F0" aria-hidden="true"></i>
+                                Site Analytics
+                            </span>
+                            <p class="tracker-desc">Collects and analyzes data related to site usage and performance.</p>
+                        
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/tracker_categories.html">Learn about our tracker categories</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/what_is_a_tracker.html">What is a tracker?</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-sm-6 col-xs-12">
+                    <h4>SIMILAR TRACKERS</h4>
+                    <ul>
+                        
+                            <li>
+                                <a href="../trackers/google_analytics.html" class="entity-name">
+                                Google Analytics
+                                </a>
+                                
+                                    <span>
+                                        Google
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/new_relic.html" class="entity-name">
+                                New Relic
+                                </a>
+                                
+                                    <span>
+                                        New Relic
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/hotjar.html" class="entity-name">
+                                Hotjar
+                                </a>
+                                
+                                    <span>
+                                        Hotjar
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/chartbeat.html" class="entity-name">
+                                ChartBeat
+                                </a>
+                                
+                                    <span>
+                                        ChartBeat
+                                    </span>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="tag-cloud">
+        <div class="container">
+            <div class="row">
+                <h2 class="title">Presence on top sites</h2>
+                
+                    <script src="../static/js/d3.min.js"></script>
+<script src="../static/js/d3.layout.cloud.js"></script>
+
+<script>
+        function sanitiseCategory(cat) {
+            return cat.replace(/\s/g, '_').toLowerCase();
+        }
+
+        function drawTagCloud(cat, siteList) {
+            var container = document.getElementById('tag_cloud_container');
+            var width = Math.max(container.offsetWidth, 300);
+            var height = Math.max(container.offsetHeight - 5, 400);
+            var containerSvg = document.getElementById('tag_cloud');
+            containerSvg.setAttribute('width', width);
+            containerSvg.setAttribute('height', height);
+
+            var sites = JSON.parse(siteList);
+            var minSize = 20;
+            var maxSize = 100;
+            var scaleFactor = (maxSize - minSize) / 0.3;
+
+            var layout = d3.layout.cloud()
+                .size([width, height])
+                .words(sites.map(function (d) {
+                    return {
+                        text: d.site.replace('www.', ''),
+                        size: Math.min(maxSize, minSize + d.frequency * scaleFactor),
+                        rotate: 0,
+                        opacity: 0.5 + (d.site_freq || 0. * 0.7),
+                        colour: d.site_cat,
+                        href: d.url,
+                        category: d.category,
+                    };
+                }))
+                .padding(3)
+                .rotate(function (d) { return 0 })
+                .font("Impact")
+                .fontSize(function (d) { return d.size; })
+                .on("end", draw);
+
+            layout.start();
+
+            function draw(words) {
+                d3.select('#tag_cloud')
+                    .append("g")
+                    .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .style("font-size", function (d) { return d.size + "px"; })
+                    .style("font-family", "Helvetica")
+                    .style("fill", function (d) { return d.colour })
+                    .attr("class", function (d) { return "category-" + sanitiseCategory(d.category) })
+                    .attr("opacity", function (d) { return d.opacity })
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                    })
+                    .insert('a')
+                    .attr("href", function (d) { return d.href })
+                    .text(function (d) { return d.text; });
+            }
+        }
+
+        var activeCategories = [];
+
+        function toggleTagCloudCategory(cat) {
+            if (cat === "all") {
+                // unselect buttons
+                activeCategories.forEach(function(otherCat) {
+                    document.getElementById('button-' + otherCat).classList.remove('active');
+                });
+                document.getElementById('button-all').classList.add('active');
+                // make everything visible
+                d3.selectAll("#tag_cloud text").style("visibility", "visible");
+                activeCategories = [];
+            } else {
+                document.getElementById('button-all').classList.remove('active');
+                document.getElementById('button-' + cat).classList.add('active');
+
+                if (activeCategories.length === 0) {
+                    // hide everything
+                    d3.selectAll("#tag_cloud text").style("visibility", "hidden");
+                }
+                // make just elements from specified categories visible
+                d3.selectAll("#tag_cloud text.category-" + sanitiseCategory(cat)).style("visibility", "visible");
+                activeCategories.push(cat);
+            }
+        }
+    </script>
+
+
+<ul class="nav nav-tabs">
+    <li class="active" id="button-all">
+        <a href="#all" onclick="toggleTagCloudCategory('all')">Show all</a>
+    </li>
+    
+        
+            <li id="button-Adult">
+                <a href="#Adult" onclick="toggleTagCloudCategory('Adult')">Adult</a>
+            </li>
+        
+    
+        
+            <li id="button-Banking">
+                <a href="#Banking" onclick="toggleTagCloudCategory('Banking')">Banking</a>
+            </li>
+        
+    
+        
+            <li id="button-Business">
+                <a href="#Business" onclick="toggleTagCloudCategory('Business')">Business</a>
+            </li>
+        
+    
+        
+            <li id="button-E-Commerce">
+                <a href="#E-Commerce" onclick="toggleTagCloudCategory('E-Commerce')">E-commerce</a>
+            </li>
+        
+    
+        
+            <li id="button-Entertainment">
+                <a href="#Entertainment" onclick="toggleTagCloudCategory('Entertainment')">Entertainment</a>
+            </li>
+        
+    
+        
+            <li id="button-Government">
+                <a href="#Government" onclick="toggleTagCloudCategory('Government')">Government</a>
+            </li>
+        
+    
+        
+            <li id="button-News and Portals">
+                <a href="#News and Portals" onclick="toggleTagCloudCategory('News and Portals')">News and portals</a>
+            </li>
+        
+    
+        
+            <li id="button-Recreation">
+                <a href="#Recreation" onclick="toggleTagCloudCategory('Recreation')">Recreation</a>
+            </li>
+        
+    
+        
+            <li id="button-Reference">
+                <a href="#Reference" onclick="toggleTagCloudCategory('Reference')">Reference</a>
+            </li>
+        
+    
+</ul>
+
+<div class="tab-content">
+    <div id="tag_cloud_container" class="tab-pane fade in active">
+        <svg id="tag_cloud" height=400></svg>
+        <script>drawTagCloud('all', '[{"category": "Business", "frequency": 0.03729650472337854, "site": "avito.ru", "site_cat": "blue", "site_freq": 0.3642533167411276, "url": "../websites/avito.ru.html"}, {"category": "E-Commerce", "frequency": 0.03620683907927431, "site": "aliexpress.com", "site_cat": "#71C671", "site_freq": 0.1005386690627922, "url": "../websites/aliexpress.com.html"}, {"category": "Entertainment", "frequency": 0.010420841578716637, "site": "yaplakal.com", "site_cat": "#B8B8B8", "site_freq": 0.3470290386438006, "url": "../websites/yaplakal.com.html"}, {"category": "Entertainment", "frequency": 0.010276626245467378, "site": "pikabu.ru", "site_cat": "#B8B8B8", "site_freq": 0.34306965933028255, "url": "../websites/pikabu.ru.html"}, {"category": "Adult", "frequency": 0.008867632865882439, "site": "imgsrc.ru", "site_cat": "#FFAEB9", "site_freq": 0.38919065517662876, "url": "../websites/imgsrc.ru.html"}, {"category": "News and Portals", "frequency": 0.008280153385235188, "site": "rambler.ru", "site_cat": "#000", "site_freq": 0.3517703696034786, "url": "../websites/rambler.ru.html"}, {"category": "Entertainment", "frequency": 0.008270579645550565, "site": "e621.net", "site_cat": "#B8B8B8", "site_freq": 0.2554221466029099, "url": "../websites/e621.net.html"}, {"category": "Entertainment", "frequency": 0.008207479997629195, "site": "bs.to", "site_cat": "#B8B8B8", "site_freq": 0.32941168251395514, "url": "../websites/bs.to.html"}, {"category": "News and Portals", "frequency": 0.008072229166084627, "site": "rt.com", "site_cat": "#000", "site_freq": 0.35493067700420566, "url": "../websites/rt.com.html"}, {"category": "Adult", "frequency": 0.007537666355694195, "site": "motherless.com", "site_cat": "#FFAEB9", "site_freq": 0.3407511744477931, "url": "../websites/motherless.com.html"}, {"category": "News and Portals", "frequency": 0.00634834678487276, "site": "livejournal.com", "site_cat": "#000", "site_freq": 0.3019918603255042, "url": "../websites/livejournal.com.html"}, {"category": "Entertainment", "frequency": 0.0062994336784840555, "site": "4pda.ru", "site_cat": "#B8B8B8", "site_freq": 0.3525695357786546, "url": "../websites/4pda.ru.html"}, {"category": "News and Portals", "frequency": 0.006075321135866771, "site": "mail.ru", "site_cat": "#000", "site_freq": 0.051377961883858604, "url": "../websites/mail.ru.html"}, {"category": "News and Portals", "frequency": 0.005749639918595362, "site": "sputniknews.com", "site_cat": "#000", "site_freq": 0.36357132243276113, "url": "../websites/sputniknews.com.html"}, {"category": "Business", "frequency": 0.0054329232030286435, "site": "hh.ru", "site_cat": "blue", "site_freq": 0.37609427812287244, "url": "../websites/hh.ru.html"}, {"category": "Entertainment", "frequency": 0.005420303273444369, "site": "habr.com", "site_cat": "#B8B8B8", "site_freq": 0.35405746512183195, "url": "../websites/habr.com.html"}, {"category": "Entertainment", "frequency": 0.0050773893247406405, "site": "shutterstock.com", "site_cat": "#B8B8B8", "site_freq": 0.23002854754506885, "url": "../websites/shutterstock.com.html"}, {"category": "Entertainment", "frequency": 0.0047681575329273545, "site": "avxhm.se", "site_cat": "#B8B8B8", "site_freq": 0.3660973230156503, "url": "../websites/avxhm.se.html"}, {"category": "E-Commerce", "frequency": 0.004374850899883662, "site": "drive2.ru", "site_cat": "#71C671", "site_freq": 0.36046928560159486, "url": "../websites/drive2.ru.html"}, {"category": "Entertainment", "frequency": 0.004273108157235271, "site": "kinopoisk.ru", "site_cat": "#B8B8B8", "site_freq": 0.33570827834720235, "url": "../websites/kinopoisk.ru.html"}, {"category": "News and Portals", "frequency": 0.004179459576320242, "site": "lenta.ru", "site_cat": "#000", "site_freq": 0.3418619054738056, "url": "../websites/lenta.ru.html"}, {"category": "Entertainment", "frequency": 0.004070754113901218, "site": "ultimate-guitar.com", "site_cat": "#B8B8B8", "site_freq": 0.3378552131640157, "url": "../websites/ultimate-guitar.com.html"}, {"category": "E-Commerce", "frequency": 0.004037855262984972, "site": "banggood.com", "site_cat": "#71C671", "site_freq": 0.22626804525946156, "url": "../websites/banggood.com.html"}, {"category": "Entertainment", "frequency": 0.00397266679913241, "site": "seasonvar.ru", "site_cat": "#B8B8B8", "site_freq": 0.35707580380192444, "url": "../websites/seasonvar.ru.html"}, {"category": "News and Portals", "frequency": 0.003699989286114953, "site": "onliner.by", "site_cat": "#000", "site_freq": 0.36199218317594667, "url": "../websites/onliner.by.html"}, {"category": "Business", "frequency": 0.0035412392753444957, "site": "flvto.biz", "site_cat": "blue", "site_freq": 0.37319538458716267, "url": "../websites/flvto.biz.html"}, {"category": "News and Portals", "frequency": 0.003312600964876299, "site": "hurriyet.com.tr", "site_cat": "#000", "site_freq": 0.27530361444040186, "url": "../websites/hurriyet.com.tr.html"}, {"category": "Business", "frequency": 0.0031417532285043653, "site": "onlinevideoconverter.com", "site_cat": "blue", "site_freq": 0.31666023369241025, "url": "../websites/onlinevideoconverter.com.html"}, {"category": "Adult", "frequency": 0.003118776253261273, "site": "pornhubpremium.com", "site_cat": "#FFAEB9", "site_freq": 0.3283877530447851, "url": "../websites/pornhubpremium.com.html"}, {"category": "Business", "frequency": 0.0031079840376167897, "site": "vivo.sx", "site_cat": "blue", "site_freq": 0.35424127292747526, "url": "../websites/vivo.sx.html"}, {"category": "Banking", "frequency": 0.0030738667107406826, "site": "sberbank.ru", "site_cat": "#FFE4C4", "site_freq": 0.47122710109541155, "url": "../websites/sberbank.ru.html"}, {"category": "E-Commerce", "frequency": 0.0028621129957162737, "site": "auto.ru", "site_cat": "#71C671", "site_freq": 0.3584469659810558, "url": "../websites/auto.ru.html"}, {"category": "Entertainment", "frequency": 0.002715721812538692, "site": "readmanga.me", "site_cat": "#B8B8B8", "site_freq": 0.32052388289676426, "url": "../websites/readmanga.me.html"}, {"category": "Entertainment", "frequency": 0.0026965743331694484, "site": "jbzdy.pl", "site_cat": "#B8B8B8", "site_freq": 0.3188666817611098, "url": "../websites/jbzdy.pl.html"}, {"category": "Business", "frequency": 0.002695616959200986, "site": "turbobit.net", "site_cat": "blue", "site_freq": 0.3245112214748224, "url": "../websites/turbobit.net.html"}, {"category": "Entertainment", "frequency": 0.002572202751266497, "site": "fishki.net", "site_cat": "#B8B8B8", "site_freq": 0.34758779667395856, "url": "../websites/fishki.net.html"}, {"category": "Business", "frequency": 0.00254522221215529, "site": "gosuslugi.ru", "site_cat": "blue", "site_freq": 0.3514819355303959, "url": "../websites/gosuslugi.ru.html"}, {"category": "News and Portals", "frequency": 0.0024964831737608515, "site": "tut.by", "site_cat": "#000", "site_freq": 0.3577361502581627, "url": "../websites/tut.by.html"}, {"category": "News and Portals", "frequency": 0.0024228524121863958, "site": "rbc.ru", "site_cat": "#000", "site_freq": 0.3439550256378575, "url": "../websites/rbc.ru.html"}, {"category": "Entertainment", "frequency": 0.002419371052301079, "site": "nnmclub.to", "site_cat": "#B8B8B8", "site_freq": 0.353012889707283, "url": "../websites/nnmclub.to.html"}, {"category": "Entertainment", "frequency": 0.002393347887158334, "site": "kissanime.ru", "site_cat": "#B8B8B8", "site_freq": 0.05993927385833328, "url": "../websites/kissanime.ru.html"}, {"category": "Entertainment", "frequency": 0.002369674639938178, "site": "nnm-club.me", "site_cat": "#B8B8B8", "site_freq": 0.3448856799037304, "url": "../websites/nnm-club.me.html"}, {"category": "Adult", "frequency": 0.0022549638317169813, "site": "beeg.com", "site_cat": "#FFAEB9", "site_freq": 0.35780475342144147, "url": "../websites/beeg.com.html"}, {"category": "Business", "frequency": 0.002244693820055296, "site": "yadi.sk", "site_cat": "blue", "site_freq": 0.3606426713650474, "url": "../websites/yadi.sk.html"}, {"category": "Entertainment", "frequency": 0.002133377337722284, "site": "vk.com", "site_cat": "#B8B8B8", "site_freq": 0.010416135491349916, "url": "../websites/vk.com.html"}, {"category": "News and Portals", "frequency": 0.0020569614882395746, "site": "gismeteo.ru", "site_cat": "#000", "site_freq": 0.32632378322402483, "url": "../websites/gismeteo.ru.html"}, {"category": "E-Commerce", "frequency": 0.002031808663068159, "site": "citilink.ru", "site_cat": "#71C671", "site_freq": 0.23337531989763274, "url": "../websites/citilink.ru.html"}, {"category": "News and Portals", "frequency": 0.0019378989801617317, "site": "echo.msk.ru", "site_cat": "#000", "site_freq": 0.2689877623011223, "url": "../websites/echo.msk.ru.html"}, {"category": "E-Commerce", "frequency": 0.0019345916882706805, "site": "dns-shop.ru", "site_cat": "#71C671", "site_freq": 0.39322105859043305, "url": "../websites/dns-shop.ru.html"}, {"category": "Entertainment", "frequency": 0.0019103092030705942, "site": "stoloto.ru", "site_cat": "#B8B8B8", "site_freq": 0.5150292136940657, "url": "../websites/stoloto.ru.html"}, {"category": "Entertainment", "frequency": 0.0018674884764811946, "site": "playground.ru", "site_cat": "#B8B8B8", "site_freq": 0.37293821152342055, "url": "../websites/playground.ru.html"}, {"category": "E-Commerce", "frequency": 0.0018467743851635582, "site": "ozon.ru", "site_cat": "#71C671", "site_freq": 0.21946073412144343, "url": "../websites/ozon.ru.html"}, {"category": "Entertainment", "frequency": 0.001786894995136105, "site": "hdrezka.ag", "site_cat": "#B8B8B8", "site_freq": 0.26558780916899516, "url": "../websites/hdrezka.ag.html"}, {"category": "Entertainment", "frequency": 0.0016908964962984877, "site": "mamba.ru", "site_cat": "#B8B8B8", "site_freq": 0.24087184001388595, "url": "../websites/mamba.ru.html"}, {"category": "Entertainment", "frequency": 0.0016883725103816328, "site": "coub.com", "site_cat": "#B8B8B8", "site_freq": 0.3063886914633183, "url": "../websites/coub.com.html"}, {"category": "Reference", "frequency": 0.001626926508405787, "site": "testberichte.de", "site_cat": "#E0EEEE", "site_freq": 0.41203958824696363, "url": "../websites/testberichte.de.html"}, {"category": "Entertainment", "frequency": 0.0016154380207842407, "site": "fotostrana.ru", "site_cat": "#B8B8B8", "site_freq": 0.34715520143642686, "url": "../websites/fotostrana.ru.html"}, {"category": "News and Portals", "frequency": 0.001543460905155311, "site": "gazeta.ru", "site_cat": "#000", "site_freq": 0.3347932792146498, "url": "../websites/gazeta.ru.html"}, {"category": "Entertainment", "frequency": 0.0014955922067322015, "site": "cont.ws", "site_cat": "#B8B8B8", "site_freq": 0.35569539028378633, "url": "../websites/cont.ws.html"}, {"category": "E-Commerce", "frequency": 0.0014944607647694734, "site": "youla.ru", "site_cat": "#71C671", "site_freq": 0.2203613870280537, "url": "../websites/youla.ru.html"}, {"category": "Entertainment", "frequency": 0.0014725281974919762, "site": "s.to", "site_cat": "#B8B8B8", "site_freq": 0.13942660304745894, "url": "../websites/s.to.html"}, {"category": "News and Portals", "frequency": 0.0014710486195407164, "site": "vesti.ru", "site_cat": "#000", "site_freq": 0.3481072620175475, "url": "../websites/vesti.ru.html"}, {"category": "Entertainment", "frequency": 0.0014636507297844177, "site": "wargaming.net", "site_cat": "#B8B8B8", "site_freq": 0.15921420118343196, "url": "../websites/wargaming.net.html"}, {"category": "Adult", "frequency": 0.00145599173803672, "site": "thefappeningblog.com", "site_cat": "#FFAEB9", "site_freq": 0.34604803177295573, "url": "../websites/thefappeningblog.com.html"}, {"category": "E-Commerce", "frequency": 0.0014508567322058775, "site": "drom.ru", "site_cat": "#71C671", "site_freq": 0.1270937688220001, "url": "../websites/drom.ru.html"}, {"category": "Business", "frequency": 0.0014505956302144787, "site": "whoer.net", "site_cat": "blue", "site_freq": 0.40148869028978873, "url": "../websites/whoer.net.html"}, {"category": "E-Commerce", "frequency": 0.0014423274004868507, "site": "onlinetrade.ru", "site_cat": "#71C671", "site_freq": 0.34331171925172466, "url": "../websites/onlinetrade.ru.html"}, {"category": "News and Portals", "frequency": 0.0014250946690545314, "site": "ria.ru", "site_cat": "#000", "site_freq": 0.2092042724996167, "url": "../websites/ria.ru.html"}, {"category": "Business", "frequency": 0.0014248335670631327, "site": "2conv.com", "site_cat": "blue", "site_freq": 0.352094803854095, "url": "../websites/2conv.com.html"}, {"category": "News and Portals", "frequency": 0.0014227447511319423, "site": "rusvesna.su", "site_cat": "#000", "site_freq": 0.35200258397932815, "url": "../websites/rusvesna.su.html"}, {"category": "Business", "frequency": 0.0013952420080379378, "site": "istockphoto.com", "site_cat": "blue", "site_freq": 0.3004535572381738, "url": "../websites/istockphoto.com.html"}, {"category": "Entertainment", "frequency": 0.0013841016564049232, "site": "vseigru.net", "site_cat": "#B8B8B8", "site_freq": 0.1807261776237286, "url": "../websites/vseigru.net.html"}, {"category": "Entertainment", "frequency": 0.0013791407185683464, "site": "ficbook.net", "site_cat": "#B8B8B8", "site_freq": 0.1759630439852087, "url": "../websites/ficbook.net.html"}, {"category": "Business", "frequency": 0.001341977201792587, "site": "leroymerlin.ru", "site_cat": "blue", "site_freq": 0.3536792366272135, "url": "../websites/leroymerlin.ru.html"}, {"category": "Adult", "frequency": 0.001333796006062092, "site": "jizzbunker.com", "site_cat": "#FFAEB9", "site_freq": 0.37040170155169916, "url": "../websites/jizzbunker.com.html"}, {"category": "News and Portals", "frequency": 0.0013333608360764273, "site": "championat.com", "site_cat": "#000", "site_freq": 0.2640013785972773, "url": "../websites/championat.com.html"}, {"category": "News and Portals", "frequency": 0.0013227426884262104, "site": "e1.ru", "site_cat": "#000", "site_freq": 0.3434033034322254, "url": "../websites/e1.ru.html"}, {"category": "Entertainment", "frequency": 0.0013133430167358543, "site": "adme.ru", "site_cat": "#B8B8B8", "site_freq": 0.34799252819223764, "url": "../websites/adme.ru.html"}, {"category": "E-Commerce", "frequency": 0.0013097746228534044, "site": "alibaba.com", "site_cat": "#71C671", "site_freq": 0.10052369310515277, "url": "../websites/alibaba.com.html"}, {"category": "Business", "frequency": 0.0013050747870082264, "site": "mvideo.ru", "site_cat": "blue", "site_freq": 0.2529819648069104, "url": "../websites/mvideo.ru.html"}, {"category": "Business", "frequency": 0.0013012452911343776, "site": "sci-hub.tw", "site_cat": "blue", "site_freq": 0.34640871177015753, "url": "../websites/sci-hub.tw.html"}, {"category": "News and Portals", "frequency": 0.00126442991034715, "site": "haber7.com", "site_cat": "#000", "site_freq": 0.3843792993967616, "url": "../websites/haber7.com.html"}, {"category": "Entertainment", "frequency": 0.0012635595703758206, "site": "mobile01.com", "site_cat": "#B8B8B8", "site_freq": 0.20834648833271147, "url": "../websites/mobile01.com.html"}, {"category": "Entertainment", "frequency": 0.001253550660705534, "site": "kwejk.pl", "site_cat": "#B8B8B8", "site_freq": 0.32767603230576725, "url": "../websites/kwejk.pl.html"}, {"category": "News and Portals", "frequency": 0.0012518970147600086, "site": "3dnews.ru", "site_cat": "#000", "site_freq": 0.36257309941520466, "url": "../websites/3dnews.ru.html"}, {"category": "Entertainment", "frequency": 0.001251287776780078, "site": "marathonbet.com", "site_cat": "#B8B8B8", "site_freq": 0.3106055695983754, "url": "../websites/marathonbet.com.html"}, {"category": "Entertainment", "frequency": 0.00123736233723881, "site": "mintmanga.com", "site_cat": "#B8B8B8", "site_freq": 0.3941502633767674, "url": "../websites/mintmanga.com.html"}, {"category": "Recreation", "frequency": 0.0012093373901620077, "site": "booking.com", "site_cat": "#B9D3EE", "site_freq": 0.012608984457237439, "url": "../websites/booking.com.html"}, {"category": "E-Commerce", "frequency": 0.00120672637024802, "site": "technopoint.ru", "site_cat": "#71C671", "site_freq": 0.3683972792007652, "url": "../websites/technopoint.ru.html"}, {"category": "News and Portals", "frequency": 0.0012038542483426334, "site": "mynet.com", "site_cat": "#000", "site_freq": 0.24338829160141473, "url": "../websites/mynet.com.html"}, {"category": "Entertainment", "frequency": 0.0012000247524687846, "site": "rsload.net", "site_cat": "#B8B8B8", "site_freq": 0.3716241712037087, "url": "../websites/rsload.net.html"}, {"category": "Adult", "frequency": 0.0011849678709647885, "site": "tukif.com", "site_cat": "#FFAEB9", "site_freq": 0.36552298109965636, "url": "../websites/tukif.com.html"}, {"category": "Entertainment", "frequency": 0.001182879055033598, "site": "animevost.org", "site_cat": "#B8B8B8", "site_freq": 0.2745212894885675, "url": "../websites/animevost.org.html"}, {"category": "Entertainment", "frequency": 0.0011460636742463704, "site": "ok.ru", "site_cat": "#B8B8B8", "site_freq": 0.031672499428750105, "url": "../websites/ok.ru.html"}, {"category": "News and Portals", "frequency": 0.0011327474726850327, "site": "eurosport.fr", "site_cat": "#000", "site_freq": 0.14949803579223048, "url": "../websites/eurosport.fr.html"}, {"category": "Entertainment", "frequency": 0.001123086699003278, "site": "sports.ru", "site_cat": "#B8B8B8", "site_freq": 0.17931187816130287, "url": "../websites/sports.ru.html"}, {"category": "Reference", "frequency": 0.0011021985396913758, "site": "audioz.download", "site_cat": "#E0EEEE", "site_freq": 0.36795769532498473, "url": "../websites/audioz.download.html"}, {"category": "Business", "frequency": 0.0010986301458089257, "site": "labirint.ru", "site_cat": "blue", "site_freq": 0.35381338116994143, "url": "../websites/labirint.ru.html"}, {"category": "News and Portals", "frequency": 0.0010728680826575796, "site": "olimp.com", "site_cat": "#000", "site_freq": 0.3385701337581367, "url": "../websites/olimp.com.html"}, {"category": "Business", "frequency": 0.001062946206984426, "site": "liveinternet.ru", "site_cat": "blue", "site_freq": 0.3004206331636042, "url": "../websites/liveinternet.ru.html"}, {"category": "Adult", "frequency": 0.00105711492917652, "site": "ashemaletube.com", "site_cat": "#FFAEB9", "site_freq": 0.09938060989878658, "url": "../websites/ashemaletube.com.html"}, {"category": "Business", "frequency": 0.0010522410253370762, "site": "ikea.com", "site_cat": "blue", "site_freq": 0.013725254240751631, "url": "../websites/ikea.com.html"}, {"category": "News and Portals", "frequency": 0.0010483244954660944, "site": "ensonhaber.com", "site_cat": "#000", "site_freq": 0.362419136452535, "url": "../websites/ensonhaber.com.html"}, {"category": "Reference", "frequency": 0.0010285677781169203, "site": "mos.ru", "site_cat": "#E0EEEE", "site_freq": 0.28129388522600146, "url": "../websites/mos.ru.html"}, {"category": "E-Commerce", "frequency": 0.0010276104041484582, "site": "meshok.net", "site_cat": "#71C671", "site_freq": 0.31979090490506756, "url": "../websites/meshok.net.html"}, {"category": "News and Portals", "frequency": 0.0010149904745641839, "site": "vz.ru", "site_cat": "#000", "site_freq": 0.33769618347136154, "url": "../websites/vz.ru.html"}, {"category": "Entertainment", "frequency": 0.001014729372572785, "site": "lostfilm.tv", "site_cat": "#B8B8B8", "site_freq": 0.2081592572754865, "url": "../websites/lostfilm.tv.html"}, {"category": "Business", "frequency": 0.0009891413774157048, "site": "uloz.to", "site_cat": "blue", "site_freq": 0.21888602133970186, "url": "../websites/uloz.to.html"}, {"category": "News and Portals", "frequency": 0.0009867914594931157, "site": "ixbt.com", "site_cat": "#000", "site_freq": 0.24329427921548433, "url": "../websites/ixbt.com.html"}, {"category": "Adult", "frequency": 0.0009847026435619256, "site": "hclips.com", "site_cat": "#FFAEB9", "site_freq": 0.2139278083460964, "url": "../websites/hclips.com.html"}, {"category": "E-Commerce", "frequency": 0.0009791324677454183, "site": "olx.kz", "site_cat": "#71C671", "site_freq": 0.40940354452490996, "url": "../websites/olx.kz.html"}, {"category": "Adult", "frequency": 0.000973562291928911, "site": "hqporner.com", "site_cat": "#FFAEB9", "site_freq": 0.37440171369280717, "url": "../websites/hqporner.com.html"}, {"category": "Entertainment", "frequency": 0.0009604201583618392, "site": "sdamgia.ru", "site_cat": "#B8B8B8", "site_freq": 0.36589409463178485, "url": "../websites/sdamgia.ru.html"}, {"category": "Reference", "frequency": 0.0009474520927890332, "site": "irecommend.ru", "site_cat": "#E0EEEE", "site_freq": 0.3400706007309987, "url": "../websites/irecommend.ru.html"}, {"category": "Business", "frequency": 0.0009337877552391638, "site": "pochta.ru", "site_cat": "blue", "site_freq": 0.36434950928787313, "url": "../websites/pochta.ru.html"}, {"category": "Entertainment", "frequency": 0.0009332655512563663, "site": "rutube.ru", "site_cat": "#B8B8B8", "site_freq": 0.3550779827146594, "url": "../websites/rutube.ru.html"}, {"category": "Business", "frequency": 0.0009325692792793028, "site": "musescore.com", "site_cat": "blue", "site_freq": 0.31017513388334056, "url": "../websites/musescore.com.html"}, {"category": "E-Commerce", "frequency": 0.0009204715536778261, "site": "livemaster.ru", "site_cat": "#71C671", "site_freq": 0.2634647003138857, "url": "../websites/livemaster.ru.html"}, {"category": "Entertainment", "frequency": 0.0009172512957839078, "site": "vidoza.net", "site_cat": "#B8B8B8", "site_freq": 0.2955909575363213, "url": "../websites/vidoza.net.html"}, {"category": "E-Commerce", "frequency": 0.0009152495138498505, "site": "exist.ru", "site_cat": "#71C671", "site_freq": 0.3726963425007088, "url": "../websites/exist.ru.html"}, {"category": "Reference", "frequency": 0.0009145532418727871, "site": "nalog.ru", "site_cat": "#E0EEEE", "site_freq": 0.31679228218269523, "url": "../websites/nalog.ru.html"}, {"category": "Adult", "frequency": 0.0009108978139932043, "site": "8muses.com", "site_cat": "#FFAEB9", "site_freq": 0.10869700683380762, "url": "../websites/8muses.com.html"}, {"category": "Banking", "frequency": 0.0008998444963573226, "site": "cbr.ru", "site_cat": "#FFE4C4", "site_freq": 0.3765112891478514, "url": "../websites/cbr.ru.html"}, {"category": "E-Commerce", "frequency": 0.0008975816124318666, "site": "e-katalog.ru", "site_cat": "#71C671", "site_freq": 0.37578341349657485, "url": "../websites/e-katalog.ru.html"}, {"category": "Business", "frequency": 0.000896972374451936, "site": "detmir.ru", "site_cat": "blue", "site_freq": 0.42866650029115716, "url": "../websites/detmir.ru.html"}, {"category": "Entertainment", "frequency": 0.0008949705925178788, "site": "goodfon.ru", "site_cat": "#B8B8B8", "site_freq": 0.3616063579139853, "url": "../websites/goodfon.ru.html"}, {"category": "Adult", "frequency": 0.0008794785410282179, "site": "justporno.sex", "site_cat": "#FFAEB9", "site_freq": 0.36388188692833995, "url": "../websites/justporno.sex.html"}, {"category": "Entertainment", "frequency": 0.0008674678494238741, "site": "doramatv.ru", "site_cat": "#B8B8B8", "site_freq": 0.36759607582798554, "url": "../websites/doramatv.ru.html"}, {"category": "Adult", "frequency": 0.0008642475915299558, "site": "ebenporno.com", "site_cat": "#FFAEB9", "site_freq": 0.4292569057191026, "url": "../websites/ebenporno.com.html"}, {"category": "News and Portals", "frequency": 0.0008561534297965937, "site": "kp.ru", "site_cat": "#000", "site_freq": 0.316017733230532, "url": "../websites/kp.ru.html"}, {"category": "News and Portals", "frequency": 0.0008510184239657511, "site": "topwar.ru", "site_cat": "#000", "site_freq": 0.29173255362950146, "url": "../websites/topwar.ru.html"}, {"category": "Business", "frequency": 0.0008407484123040658, "site": "consultant.ru", "site_cat": "blue", "site_freq": 0.3399373614385755, "url": "../websites/consultant.ru.html"}, {"category": "News and Portals", "frequency": 0.000820469490972094, "site": "sozcu.com.tr", "site_cat": "#000", "site_freq": 0.12442913333861302, "url": "../websites/sozcu.com.tr.html"}, {"category": "Business", "frequency": 0.0008168140630925112, "site": "dnevnik.ru", "site_cat": "blue", "site_freq": 0.33275421925967946, "url": "../websites/dnevnik.ru.html"}, {"category": "News and Portals", "frequency": 0.0008153344851412514, "site": "cumhuriyet.com.tr", "site_cat": "#000", "site_freq": 0.3640461664011192, "url": "../websites/cumhuriyet.com.tr.html"}, {"category": "News and Portals", "frequency": 0.0008095902413304783, "site": "mk.ru", "site_cat": "#000", "site_freq": 0.3365168945807105, "url": "../websites/mk.ru.html"}, {"category": "Entertainment", "frequency": 0.0007916612379210955, "site": "kinogo.cc", "site_cat": "#B8B8B8", "site_freq": 0.3118058412176059, "url": "../websites/kinogo.cc.html"}, {"category": "E-Commerce", "frequency": 0.0007898335239813041, "site": "eldorado.ru", "site_cat": "#71C671", "site_freq": 0.25164993622095283, "url": "../websites/eldorado.ru.html"}, {"category": "Business", "frequency": 0.0007855688581217907, "site": "rzd.ru", "site_cat": "blue", "site_freq": 0.37622441748989205, "url": "../websites/rzd.ru.html"}, {"category": "Entertainment", "frequency": 0.0007830448722049359, "site": "worldoftanks.eu", "site_cat": "#B8B8B8", "site_freq": 0.2052516311538988, "url": "../websites/worldoftanks.eu.html"}, {"category": "News and Portals", "frequency": 0.0007732970645260481, "site": "sportbox.ru", "site_cat": "#000", "site_freq": 0.31285211267605634, "url": "../websites/sportbox.ru.html"}, {"category": "E-Commerce", "frequency": 0.0007713823165891238, "site": "litres.ru", "site_cat": "#71C671", "site_freq": 0.36326748094106076, "url": "../websites/litres.ru.html"}, {"category": "Entertainment", "frequency": 0.0007666824807439457, "site": "litmir.me", "site_cat": "#B8B8B8", "site_freq": 0.35055115603486015, "url": "../websites/litmir.me.html"}, {"category": "Recreation", "frequency": 0.0007575439110449885, "site": "airfrance.fr", "site_cat": "#B9D3EE", "site_freq": 0.22047722782309134, "url": "../websites/airfrance.fr.html"}, {"category": "Business", "frequency": 0.0007524089052141458, "site": "rt.ru", "site_cat": "blue", "site_freq": 0.35459392945036916, "url": "../websites/rt.ru.html"}, {"category": "E-Commerce", "frequency": 0.0007470127973919045, "site": "tiu.ru", "site_cat": "#71C671", "site_freq": 0.3808234980921111, "url": "../websites/tiu.ru.html"}, {"category": "Entertainment", "frequency": 0.0007462294914177081, "site": "g2a.com", "site_cat": "#B8B8B8", "site_freq": 0.14668696857196625, "url": "../websites/g2a.com.html"}, {"category": "Business", "frequency": 0.0007403111796126691, "site": "apteka.ru", "site_cat": "blue", "site_freq": 0.3822405967734687, "url": "../websites/apteka.ru.html"}, {"category": "Business", "frequency": 0.0007388316016614094, "site": "uchi.ru", "site_cat": "blue", "site_freq": 0.18432309195527088, "url": "../websites/uchi.ru.html"}, {"category": "News and Portals", "frequency": 0.0007088919066476828, "site": "haberler.com", "site_cat": "#000", "site_freq": 0.39408747822721113, "url": "../websites/haberler.com.html"}, {"category": "E-Commerce", "frequency": 0.0007022773228655805, "site": "kufar.by", "site_cat": "#71C671", "site_freq": 0.23156837422872723, "url": "../websites/kufar.by.html"}, {"category": "Entertainment", "frequency": 0.0006960979090691427, "site": "aftershock.news", "site_cat": "#B8B8B8", "site_freq": 0.329923273657289, "url": "../websites/aftershock.news.html"}, {"category": "News and Portals", "frequency": 0.0006904406992555025, "site": "investing.com", "site_cat": "#000", "site_freq": 0.08089697439401201, "url": "../websites/investing.com.html"}, {"category": "Entertainment", "frequency": 0.0006844353534533306, "site": "adam4adam.com", "site_cat": "#B8B8B8", "site_freq": 0.10717108670173621, "url": "../websites/adam4adam.com.html"}, {"category": "Business", "frequency": 0.0006842612854590647, "site": "sportmaster.ru", "site_cat": "blue", "site_freq": 0.30778264954588164, "url": "../websites/sportmaster.ru.html"}, {"category": "Entertainment", "frequency": 0.0006794744156167538, "site": "fb.ru", "site_cat": "#B8B8B8", "site_freq": 0.3710374982177653, "url": "../websites/fb.ru.html"}, {"category": "Business", "frequency": 0.0006764282257171013, "site": "k2s.cc", "site_cat": "blue", "site_freq": 0.13941307311473058, "url": "../websites/k2s.cc.html"}, {"category": "Entertainment", "frequency": 0.0006631120241557638, "site": "kinogo.by", "site_cat": "#B8B8B8", "site_freq": 0.11760801444823488, "url": "../websites/kinogo.by.html"}, {"category": "Business", "frequency": 0.0006522327745141479, "site": "sima-land.ru", "site_cat": "blue", "site_freq": 0.3632573921473582, "url": "../websites/sima-land.ru.html"}, {"category": "News and Portals", "frequency": 0.0006499698905886919, "site": "meduza.io", "site_cat": "#000", "site_freq": 0.14605906512810482, "url": "../websites/meduza.io.html"}, {"category": "E-Commerce", "frequency": 0.0006466625986976407, "site": "lamoda.ru", "site_cat": "#71C671", "site_freq": 0.24786495863357352, "url": "../websites/lamoda.ru.html"}, {"category": "Entertainment", "frequency": 0.0006423979328381273, "site": "sims3pack.ru", "site_cat": "#B8B8B8", "site_freq": 0.36115868278123014, "url": "../websites/sims3pack.ru.html"}, {"category": "Business", "frequency": 0.0006216838415204909, "site": "beeline.ru", "site_cat": "blue", "site_freq": 0.22973016434567267, "url": "../websites/beeline.ru.html"}, {"category": "Entertainment", "frequency": 0.0006200301955749653, "site": "zaycev.net", "site_cat": "#B8B8B8", "site_freq": 0.3315338793745346, "url": "../websites/zaycev.net.html"}, {"category": "News and Portals", "frequency": 0.0006135026457899958, "site": "sport-express.ru", "site_cat": "#000", "site_freq": 0.31446288365453245, "url": "../websites/sport-express.ru.html"}, {"category": "Entertainment", "frequency": 0.0006106305238846093, "site": "zone-stream.net", "site_cat": "#B8B8B8", "site_freq": 0.45340571280858216, "url": "../websites/zone-stream.net.html"}, {"category": "Business", "frequency": 0.00060976018391328, "site": "ucoz.net", "site_cat": "blue", "site_freq": 0.41357733175914996, "url": "../websites/ucoz.net.html"}, {"category": "Reference", "frequency": 0.0006076713679820898, "site": "studfiles.net", "site_cat": "#E0EEEE", "site_freq": 0.31811554583561147, "url": "../websites/studfiles.net.html"}, {"category": "Government", "frequency": 0.0006041029740996398, "site": "zakupki.gov.ru", "site_cat": "#000", "site_freq": 0.3453921178343949, "url": "../websites/zakupki.gov.ru.html"}, {"category": "Reference", "frequency": 0.0006025363621512471, "site": "otzovik.com", "site_cat": "#E0EEEE", "site_freq": 0.20375548164935103, "url": "../websites/otzovik.com.html"}, {"category": "Entertainment", "frequency": 0.0006023622941569813, "site": "french-stream.co", "site_cat": "#B8B8B8", "site_freq": 0.11872984286008371, "url": "../websites/french-stream.co.html"}, {"category": "Entertainment", "frequency": 0.0006021011921655826, "site": "anidub.com", "site_cat": "#B8B8B8", "site_freq": 0.3284120579159744, "url": "../websites/anidub.com.html"}, {"category": "Entertainment", "frequency": 0.0006006216142143228, "site": "n-torrents.org", "site_cat": "#B8B8B8", "site_freq": 0.3948844129091325, "url": "../websites/n-torrents.org.html"}, {"category": "Adult", "frequency": 0.000600360512222924, "site": "txxx.com", "site_cat": "#FFAEB9", "site_freq": 0.03781736046008015, "url": "../websites/txxx.com.html"}, {"category": "E-Commerce", "frequency": 0.0005837370187705351, "site": "asos.com", "site_cat": "#71C671", "site_freq": 0.04043089313271605, "url": "../websites/asos.com.html"}, {"category": "News and Portals", "frequency": 0.0005654598793726207, "site": "24smi.info", "site_cat": "#000", "site_freq": 0.43063564658315107, "url": "../websites/24smi.info.html"}, {"category": "Business", "frequency": 0.0005592804655761829, "site": "megafon.ru", "site_cat": "blue", "site_freq": 0.2660208643815201, "url": "../websites/megafon.ru.html"}, {"category": "Business", "frequency": 0.0005518825758198841, "site": "vseinstrumenti.ru", "site_cat": "blue", "site_freq": 0.26676482961716447, "url": "../websites/vseinstrumenti.ru.html"}, {"category": "News and Portals", "frequency": 0.0005501418958772257, "site": "1tv.ru", "site_cat": "#000", "site_freq": 0.3568565460396319, "url": "../websites/1tv.ru.html"}, {"category": "E-Commerce", "frequency": 0.0005463994340005098, "site": "empik.com", "site_cat": "#71C671", "site_freq": 0.21450047833811672, "url": "../websites/empik.com.html"}, {"category": "Entertainment", "frequency": 0.0005402200202040721, "site": "joyreactor.cc", "site_cat": "#B8B8B8", "site_freq": 0.06287670816576679, "url": "../websites/joyreactor.cc.html"}, {"category": "E-Commerce", "frequency": 0.0005171560109638466, "site": "faberlic.com", "site_cat": "#71C671", "site_freq": 0.27390061768230844, "url": "../websites/faberlic.com.html"}, {"category": "E-Commerce", "frequency": 0.0005023602314512492, "site": "ulmart.ru", "site_cat": "#71C671", "site_freq": 0.2626979792463135, "url": "../websites/ulmart.ru.html"}, {"category": "E-Commerce", "frequency": 0.0005017509934713188, "site": "beru.ru", "site_cat": "#71C671", "site_freq": 0.3725845020358043, "url": "../websites/beru.ru.html"}, {"category": "Adult", "frequency": 0.0004965289536433432, "site": "hpjav.tv", "site_cat": "#FFAEB9", "site_freq": 0.04119044352829902, "url": "../websites/hpjav.tv.html"}, {"category": "Adult", "frequency": 0.0004906976758354372, "site": "24video.sexy", "site_cat": "#FFAEB9", "site_freq": 0.39847339034560747, "url": "../websites/24video.sexy.html"}, {"category": "Business", "frequency": 0.00048338682007627136, "site": "mts.ru", "site_cat": "blue", "site_freq": 0.15832383124287344, "url": "../websites/mts.ru.html"}, {"category": "Entertainment", "frequency": 0.00048034063017661895, "site": "plarium.com", "site_cat": "#B8B8B8", "site_freq": 0.13577543790592403, "url": "../websites/plarium.com.html"}, {"category": "Entertainment", "frequency": 0.00047894808622249213, "site": "baskino.me", "site_cat": "#B8B8B8", "site_freq": 0.26002929641355194, "url": "../websites/baskino.me.html"}, {"category": "Business", "frequency": 0.0004781647802482958, "site": "iherb.com", "site_cat": "blue", "site_freq": 0.06282159763990212, "url": "../websites/iherb.com.html"}, {"category": "News and Portals", "frequency": 0.0004695484145321361, "site": "rugbyrama.fr", "site_cat": "#000", "site_freq": 0.16792728857347403, "url": "../websites/rugbyrama.fr.html"}, {"category": "Entertainment", "frequency": 0.0004648485786869581, "site": "lifehacker.ru", "site_cat": "#B8B8B8", "site_freq": 0.14280748663101606, "url": "../websites/lifehacker.ru.html"}, {"category": "Adult", "frequency": 0.0004604098448331789, "site": "upornia.com", "site_cat": "#FFAEB9", "site_freq": 0.2063102063102063, "url": "../websites/upornia.com.html"}, {"category": "E-Commerce", "frequency": 0.00044187160344386566, "site": "pandao.ru", "site_cat": "#71C671", "site_freq": 0.25093910636615263, "url": "../websites/pandao.ru.html"}, {"category": "Business", "frequency": 0.0004394346515241437, "site": "gdeposylka.ru", "site_cat": "blue", "site_freq": 0.24041712299414314, "url": "../websites/gdeposylka.ru.html"}, {"category": "Entertainment", "frequency": 0.0004203742061520329, "site": "ulozto.cz", "site_cat": "#B8B8B8", "site_freq": 0.22223244685745835, "url": "../websites/ulozto.cz.html"}, {"category": "Entertainment", "frequency": 0.00039957308083726355, "site": "9anime.to", "site_cat": "#B8B8B8", "site_freq": 0.07486709500668602, "url": "../websites/9anime.to.html"}, {"category": "Entertainment", "frequency": 0.00039783240089460504, "site": "worldoftanks.ru", "site_cat": "#B8B8B8", "site_freq": 0.11454130854236098, "url": "../websites/worldoftanks.ru.html"}, {"category": "Adult", "frequency": 0.0003972231629146746, "site": "porno365.xxx", "site_cat": "#FFAEB9", "site_freq": 0.1499490751388113, "url": "../websites/porno365.xxx.html"}, {"category": "Entertainment", "frequency": 0.0003925233270694966, "site": "lesnumeriques.com", "site_cat": "#B8B8B8", "site_freq": 0.03944962955835658, "url": "../websites/lesnumeriques.com.html"}, {"category": "Adult", "frequency": 0.00039113078311536976, "site": "tubepornclassic.com", "site_cat": "#FFAEB9", "site_freq": 0.16273764258555132, "url": "../websites/tubepornclassic.com.html"}, {"category": "Entertainment", "frequency": 0.0003832977233734064, "site": "otakustream.tv", "site_cat": "#B8B8B8", "site_freq": 0.1469910884149394, "url": "../websites/otakustream.tv.html"}, {"category": "News and Portals", "frequency": 0.00035840600019338955, "site": "javfinder.is", "site_cat": "#000", "site_freq": 0.17387265664583684, "url": "../websites/javfinder.is.html"}, {"category": "Entertainment", "frequency": 0.0003549246403080725, "site": "fili.cc", "site_cat": "#B8B8B8", "site_freq": 0.04975658560987811, "url": "../websites/fili.cc.html"}, {"category": "E-Commerce", "frequency": 0.00034935446449156524, "site": "wildberries.ru", "site_cat": "#71C671", "site_freq": 0.028309471754002398, "url": "../websites/wildberries.ru.html"}, {"category": "Entertainment", "frequency": 0.0003476137845489067, "site": "voiranime.tv", "site_cat": "#B8B8B8", "site_freq": 0.13009348229699358, "url": "../websites/voiranime.tv.html"}, {"category": "Adult", "frequency": 0.00034213064272953236, "site": "hotmovs.com", "site_cat": "#FFAEB9", "site_freq": 0.20320496252261566, "url": "../websites/hotmovs.com.html"}, {"category": "Entertainment", "frequency": 0.000341434370752469, "site": "kissasian.sh", "site_cat": "#B8B8B8", "site_freq": 0.054052936880830016, "url": "../websites/kissasian.sh.html"}, {"category": "Business", "frequency": 0.0003344716509818349, "site": "savefrom.net", "site_cat": "blue", "site_freq": 0.07681544704071638, "url": "../websites/savefrom.net.html"}, {"category": "Entertainment", "frequency": 0.0003337753790047715, "site": "filmitorrent.org", "site_cat": "#B8B8B8", "site_freq": 0.39293032786885246, "url": "../websites/filmitorrent.org.html"}, {"category": "Adult", "frequency": 0.0003232442653516874, "site": "pornq.com", "site_cat": "#FFAEB9", "site_freq": 0.18434506378120813, "url": "../websites/pornq.com.html"}, {"category": "Entertainment", "frequency": 0.00031593340959252164, "site": "tnt-online.ru", "site_cat": "#B8B8B8", "site_freq": 0.4058586762075134, "url": "../websites/tnt-online.ru.html"}, {"category": "Adult", "frequency": 0.00031410569565273015, "site": "7mm.tv", "site_cat": "#FFAEB9", "site_freq": 0.08645139654098596, "url": "../websites/7mm.tv.html"}, {"category": "Adult", "frequency": 0.0003065337379021656, "site": "theporndude.com", "site_cat": "#FFAEB9", "site_freq": 0.1113253469039416, "url": "../websites/theporndude.com.html"}, {"category": "News and Portals", "frequency": 0.00030488009195664, "site": "livetv.sx", "site_cat": "#000", "site_freq": 0.05252425292009656, "url": "../websites/livetv.sx.html"}, {"category": "Business", "frequency": 0.0003032264460111144, "site": "asus.com", "site_cat": "blue", "site_freq": 0.022405144694533762, "url": "../websites/asus.com.html"}, {"category": "E-Commerce", "frequency": 0.0003024431400369181, "site": "mysku.ru", "site_cat": "#71C671", "site_freq": 0.10207978379648669, "url": "../websites/mysku.ru.html"}, {"category": "Business", "frequency": 0.0002974822022003413, "site": "elastic.co", "site_cat": "blue", "site_freq": 0.07594711698700145, "url": "../websites/elastic.co.html"}, {"category": "Entertainment", "frequency": 0.00029600262424908153, "site": "y8.com", "site_cat": "#B8B8B8", "site_freq": 0.3710856519367158, "url": "../websites/y8.com.html"}, {"category": "Business", "frequency": 0.00029434897830355594, "site": "znanija.com", "site_cat": "blue", "site_freq": 0.19932810750279956, "url": "../websites/znanija.com.html"}, {"category": "News and Portals", "frequency": 0.0002903454144354414, "site": "comss.ru", "site_cat": "#000", "site_freq": 0.10863618601016022, "url": "../websites/comss.ru.html"}, {"category": "Adult", "frequency": 0.00028494930661319994, "site": "boyfriendtv.com", "site_cat": "#FFAEB9", "site_freq": 0.13657600533956282, "url": "../websites/boyfriendtv.com.html"}, {"category": "Entertainment", "frequency": 0.00028111981073935117, "site": "ontvtime.ru", "site_cat": "#B8B8B8", "site_freq": 0.09017308766052484, "url": "../websites/ontvtime.ru.html"}, {"category": "Entertainment", "frequency": 0.0002735478529887866, "site": "filmeserialeonline.org", "site_cat": "#B8B8B8", "site_freq": 0.11938314278117522, "url": "../websites/filmeserialeonline.org.html"}, {"category": "Business", "frequency": 0.000267194371198083, "site": "opera.com", "site_cat": "blue", "site_freq": 0.09893332473977635, "url": "../websites/opera.com.html"}, {"category": "Business", "frequency": 0.00025265969367688435, "site": "avast.com", "site_cat": "blue", "site_freq": 0.10139005308745459, "url": "../websites/avast.com.html"}, {"category": "News and Portals", "frequency": 0.00022211076068322732, "site": "eurosport.de", "site_cat": "#000", "site_freq": 0.16322353693636074, "url": "../websites/eurosport.de.html"}, {"category": "Adult", "frequency": 0.00021854236680077734, "site": "popjav.tv", "site_cat": "#FFAEB9", "site_freq": 0.04271497831079357, "url": "../websites/popjav.tv.html"}, {"category": "Entertainment", "frequency": 0.00021810719681511273, "site": "pelisplus.to", "site_cat": "#B8B8B8", "site_freq": 0.08424662139447321, "url": "../websites/pelisplus.to.html"}, {"category": "Entertainment", "frequency": 0.00021445176893552983, "site": "dizibox.pw", "site_cat": "#B8B8B8", "site_freq": 0.07044629327844011, "url": "../websites/dizibox.pw.html"}, {"category": "Business", "frequency": 0.0002046169272595092, "site": "kaspersky.com", "site_cat": "blue", "site_freq": 0.05966096533522814, "url": "../websites/kaspersky.com.html"}, {"category": "Business", "frequency": 0.00020026522740286288, "site": "fastpic.ru", "site_cat": "blue", "site_freq": 0.048026549226691154, "url": "../websites/fastpic.ru.html"}, {"category": "News and Portals", "frequency": 0.00019417284760355806, "site": "matchtv.ru", "site_cat": "#000", "site_freq": 0.28420382165605096, "url": "../websites/matchtv.ru.html"}, {"category": "Entertainment", "frequency": 0.00019382471161502634, "site": "d3.ru", "site_cat": "#B8B8B8", "site_freq": 0.043897342899944805, "url": "../websites/d3.ru.html"}, {"category": "Business", "frequency": 0.0001889508077755825, "site": "svyaznoy.ru", "site_cat": "blue", "site_freq": 0.12921080823711462, "url": "../websites/svyaznoy.ru.html"}, {"category": "Business", "frequency": 0.00018259732598487887, "site": "samsung.com", "site_cat": "blue", "site_freq": 0.014124426910466753, "url": "../websites/samsung.com.html"}, {"category": "Adult", "frequency": 0.00018146588402215085, "site": "smv.to", "site_cat": "#FFAEB9", "site_freq": 0.09713487071977638, "url": "../websites/smv.to.html"}, {"category": "News and Portals", "frequency": 0.00017102180436619972, "site": "t24.com.tr", "site_cat": "#000", "site_freq": 0.06601048105348024, "url": "../websites/t24.com.tr.html"}, {"category": "Business", "frequency": 0.0001692811244235412, "site": "parimatch.com", "site_cat": "blue", "site_freq": 0.09278694781032344, "url": "../websites/parimatch.com.html"}, {"category": "Business", "frequency": 0.00016806264846368023, "site": "cian.ru", "site_cat": "blue", "site_freq": 0.03907562174960034, "url": "../websites/cian.ru.html"}, {"category": "Entertainment", "frequency": 0.0001632757786213693, "site": "reactor.cc", "site_cat": "#B8B8B8", "site_freq": 0.050455878002205426, "url": "../websites/reactor.cc.html"}, {"category": "Entertainment", "frequency": 0.00016170916667297664, "site": "jpg4.club", "site_cat": "#B8B8B8", "site_freq": 0.20806270996640538, "url": "../websites/jpg4.club.html"}, {"category": "E-Commerce", "frequency": 0.00016170916667297664, "site": "farpost.ru", "site_cat": "#71C671", "site_freq": 0.05327140317678766, "url": "../websites/farpost.ru.html"}, {"category": "Business", "frequency": 0.00016075179270451444, "site": "jooble.org", "site_cat": "blue", "site_freq": 0.036916373520946594, "url": "../websites/jooble.org.html"}, {"category": "Adult", "frequency": 0.00015709636482493154, "site": "madchensex.com", "site_cat": "#FFAEB9", "site_freq": 0.4631768026687195, "url": "../websites/madchensex.com.html"}, {"category": "Business", "frequency": 0.00015579085486793767, "site": "wix.com", "site_cat": "blue", "site_freq": 0.01823070498849123, "url": "../websites/wix.com.html"}, {"category": "Reference", "frequency": 0.0001535279709424816, "site": "multitran.ru", "site_cat": "#E0EEEE", "site_freq": 0.029175832354741072, "url": "../websites/multitran.ru.html"}, {"category": "Entertainment", "frequency": 0.00014099507535534023, "site": "anime4you.one", "site_cat": "#B8B8B8", "site_freq": 0.04202225623200436, "url": "../websites/anime4you.one.html"}, {"category": "Entertainment", "frequency": 0.00013986363339261218, "site": "fmovies.to", "site_cat": "#B8B8B8", "site_freq": 0.02842587515256576, "url": "../websites/fmovies.to.html"}, {"category": "E-Commerce", "frequency": 0.0001382970214442195, "site": "yoox.com", "site_cat": "#71C671", "site_freq": 0.037012019006801455, "url": "../websites/yoox.com.html"}, {"category": "Reference", "frequency": 0.00013559896753309882, "site": "googleusercontent.com", "site_cat": "#E0EEEE", "site_freq": 0.01364966445304971, "url": "../websites/googleusercontent.com.html"}, {"category": "Entertainment", "frequency": 0.0001322916756420476, "site": "rutor.info", "site_cat": "#B8B8B8", "site_freq": 0.01140678703828778, "url": "../websites/rutor.info.html"}, {"category": "Entertainment", "frequency": 0.00012785294178826838, "site": "torrentom.com", "site_cat": "#B8B8B8", "site_freq": 0.4471841704718417, "url": "../websites/torrentom.com.html"}, {"category": "Entertainment", "frequency": 0.00012506785388001476, "site": "masterani.me", "site_cat": "#B8B8B8", "site_freq": 0.01300146571847348, "url": "../websites/masterani.me.html"}, {"category": "Business", "frequency": 0.0001235012419316221, "site": "avg.com", "site_cat": "blue", "site_freq": 0.07902650924482067, "url": "../websites/avg.com.html"}, {"category": "Business", "frequency": 0.00012193462998322942, "site": "neobux.com", "site_cat": "blue", "site_freq": 0.024714225232853514, "url": "../websites/neobux.com.html"}, {"category": "Entertainment", "frequency": 0.00011932361006924163, "site": "livetvcdn.net", "site_cat": "#B8B8B8", "site_freq": 0.04222619194283602, "url": "../websites/livetvcdn.net.html"}, {"category": "Entertainment", "frequency": 0.00011845327009791238, "site": "fonbet.com", "site_cat": "#B8B8B8", "site_freq": 0.07665446353139961, "url": "../websites/fonbet.com.html"}, {"category": "Entertainment", "frequency": 0.00011497191021259534, "site": "pelisplus.co", "site_cat": "#B8B8B8", "site_freq": 0.05686367353966682, "url": "../websites/pelisplus.co.html"}, {"category": "Entertainment", "frequency": 0.00011375343425273436, "site": "alltube.pl", "site_cat": "#B8B8B8", "site_freq": 0.027836346985283155, "url": "../websites/alltube.pl.html"}, {"category": "Entertainment", "frequency": 0.00010470189855091006, "site": "kinox.to", "site_cat": "#B8B8B8", "site_freq": 0.022034984888726072, "url": "../websites/kinox.to.html"}, {"category": "Entertainment", "frequency": 0.00010296121860825154, "site": "startv.com.tr", "site_cat": "#B8B8B8", "site_freq": 0.2519701810436635, "url": "../websites/startv.com.tr.html"}, {"category": "Adult", "frequency": 0.0001028741846111186, "site": "hdzog.com", "site_cat": "#FFAEB9", "site_freq": 0.05951062330077535, "url": "../websites/hdzog.com.html"}, {"category": "Entertainment", "frequency": 9.712994080034549e-05, "site": "msi.com", "site_cat": "#B8B8B8", "site_freq": 0.021571886960219586, "url": "../websites/msi.com.html"}, {"category": "Entertainment", "frequency": 9.565036284908575e-05, "site": "my.com", "site_cat": "#B8B8B8", "site_freq": 0.04929798591486117, "url": "../websites/my.com.html"}, {"category": "Business", "frequency": 9.1820866975237e-05, "site": "nicehash.com", "site_cat": "blue", "site_freq": 0.10239735999223527, "url": "../websites/nicehash.com.html"}, {"category": "Business", "frequency": 9.164679898097114e-05, "site": "mi.com", "site_cat": "blue", "site_freq": 0.01991527026515868, "url": "../websites/mi.com.html"}, {"category": "News and Portals", "frequency": 9.034128902397726e-05, "site": "korrespondent.net", "site_cat": "#000", "site_freq": 0.02662972369737551, "url": "../websites/korrespondent.net.html"}]')</script>
+    </div>
+
+</div>
+                
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>Yandex Metrika</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul>
+          <li>
+            <i class="fa fa fa-github"></i>
+            <a target="_blank" rel="noreferrer" href="https://github.com/cliqz-oss/whotracks.me">
+              Get the data
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-twitter"></i>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/WhoTracks_me">
+              @WhoTracks_me
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-rss"></i>
+            <a target="_blank" type="application/rss+xml" href="/blog/feed.xml">
+              RSS
+            </a>
+          </li>
+
+          <li>
+            <i class="fa fa fa-balance-scale"></i>
+            <a href="/privacy-policy.html">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul class="margin-left">
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/about">
+              About
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/download">
+              Cliqz browser
+            </a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://www.ghostery.com/en/products/">
+              Ghostery add-on
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12 logos">
+        <a href="https://cliqz.com/en/" target="_blank">
+          <span class="cliqz-logo"></span>
+        </a>
+        <a href="https://www.ghostery.com/" target="_blank">
+          <span class="ghostery-logo"></span>
+        </a>
+
+        <div class="copyright">
+          &copy; Cliqz - All rights reserved.
+        </div>
+        <div>Last updated on 22.02.2019</div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Local javascript modules -->
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../static/js/search.js"></script>
+
+
+</footer>
+<!-- END OF FOOTER -->

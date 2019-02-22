@@ -1,0 +1,585 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tracker | The Movie DB</title>
+    <meta name="description" content="Tracker profile of The Movie DB. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="same-origin">
+
+    
+    <!-- OG params for sharable content -->
+    <meta property="og:title" content="Tracker | The Movie DB">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://whotracks.me/trackers/themoviedb.html">
+    <meta property="og:description" content="Tracker profile of The Movie DB. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+
+    <!-- Stylesheets -->
+    <link rel="icon" href="../static/img/favicon-2.ico">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="WhoTracks.Me Blog" href="https://whotracks.me/blog/feed.xml" />
+
+    <!--add this block to templates that need extra styling-->
+    
+    <link rel="stylesheet" href="../static/css/trackers/profile.css">
+
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- Plotly JS -->
+    <script src="../static/js/plotly-v1.29.3.min.js"></script>
+    <!-- For relative path resolution -->
+    <script>
+        var pathToRoot = ".."
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-blue" role="navigation">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">
+                        <img class="logo" alt="Who Tracks Me" src="../static/img/logo-white.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-0">
+                <!--Collapsed under menu in mobile-->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul id="imaginary_container">
+                        <div class="input-group stylish-input-group">
+                            <input id="search-bar" class="form-control" type="text" placeholder="Search website or tracker">
+                        </div>
+                    </ul>
+
+                    <!--Site links-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li  class="active" >
+                            <a class="nav-button" href="../trackers.html">TRACKERS</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../websites.html">WEBSITES</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../blog.html">BLOG</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../explorer.html">EXPLORER</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>The Movie DB</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var operates_under_selector = '#operates-under p',
+        $operates_under_list = $(operates_under_selector),
+        operates_list_size = $operates_under_list.length,
+        items_to_show = 2,
+        $expand = $('.operates-expand'),
+        $collapse = $('.operates-collapse');
+    $(operates_under_selector + ':lt(' +items_to_show+')').show();
+    $expand.click(function(e) {
+        items_to_show = operates_list_size;
+        $(operates_under_selector + ':lt('+items_to_show+')').show();
+        if(items_to_show === operates_list_size) {
+            $collapse.removeClass('hidden');
+            $expand.addClass('hidden');
+        }
+    });
+
+    $collapse.click(function() {
+        $(this).addClass('hidden');
+        $expand.removeClass('hidden');
+        $operates_under_list.not(':lt(2)').hide();
+    });
+
+});
+</script>
+<div id="tracker-page" class="overview-page">
+    <div id="overview-header">
+        <div class="container">
+            <div class="row overview-info inverse">
+                <div class="col-md-6 col-sm-6">
+  <h1>The Movie DB</h1>
+  
+    <p class="header">Owned by The Movie DB</p>
+  
+  
+    <p id="domain">
+        <a target="_blank" rel="noreferrer"  href="https://www.themoviedb.org/">https://www.themoviedb.org/</a>
+    </p>
+  
+</div>
+
+<div class="col-md-6 col-sm-6">
+  <div class="overview-info-right">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <p class="header">TRACKER RANK</p>
+        <p class="tracker-rank">
+          <span class="emphasis">458</span>
+          /1114
+        </p>
+        <p class="description">Relatively prevalent</p>
+      </div>
+
+      <div class="col-md-6 col-sm-6">
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="overview-header-box">
+  <div class="row">
+
+
+    <!-- LEFT COLUMN -->
+    <div class="col-md-6 col-sm-6">
+        <h3>TRACKER REACH</h3>
+        <div class="trend">
+          <img class="trackers-icon" src="../static/img/page.svg">
+          <span class="percentage">
+            0.1%
+            <span class="graph"><div id="1598755d-319a-4985-8678-c4688afa38ee" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("1598755d-319a-4985-8678-c4688afa38ee", [{"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "lines", "opacity": 1, "text": ["0.13% on May 18", "0.11% on Jun 18", "0.10% on Jul 18", "0.11% on Aug 18", "0.14% on Sep 18", "0.15% on Oct 18", "0.15% on Nov 18", "0.15% on Dec 18", "0.12% on Jan 19"], "x": ["2018-05-01", "2018-06-01", "2018-07-01", "2018-08-01", "2018-09-01", "2018-10-01", "2018-11-01", "2018-12-01", "2019-01-01"], "y": [0.13414858372149507, 0.10942163952802365, 0.0979169974881246, 0.11346070245145407, 0.14244389482295491, 0.14914337680744685, 0.14585992678441256, 0.15452598704744092, 0.1238411462495901], "type": "scatter", "uid": "408e89cc-36aa-11e9-9680-42010a1400df"}, {"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "markers", "opacity": 1, "text": ["0.12% on Jan 19"], "x": ["2019-01-01"], "y": [0.1238411462495901], "type": "scatter", "uid": "408e8d78-36aa-11e9-9680-42010a1400df"}], {"height": 100, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "rgba(0,0, 0, 0)", "font": {"color": "#BFCBD6", "family": "monospace", "size": 13}}, "margin": {"b": 40, "l": 10, "pad": 5, "r": 10, "t": 30}, "showlegend": false, "width": 153, "xaxis": {"autorange": true, "hoverformat": "%b %y", "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}, "yaxis": {"range": [0.08812529773931214, 0.16225228639981296], "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+
+          <p class="description">of web traffic is tracked by The Movie DB</p>
+      </div>
+      <div class="trend">
+          <img class="trackers-icon" src="../static/img/domain.svg">
+          <span class="percentage">
+            56
+            <span class="graph"><div id="8f6c2601-5179-4b93-9aca-2da1299a7466" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("8f6c2601-5179-4b93-9aca-2da1299a7466", [{"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "lines", "opacity": 1, "text": ["69.00% on Sep 18", "66.00% on Oct 18", "62.00% on Nov 18", "78.00% on Dec 18", "56.00% on Jan 19"], "x": ["2018-09-01", "2018-10-01", "2018-11-01", "2018-12-01", "2019-01-01"], "y": [69, 66, 62, 78, 56], "type": "scatter", "uid": "4104a8e6-36aa-11e9-9680-42010a1400df"}, {"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "markers", "opacity": 1, "text": ["56.00% on Jan 19"], "x": ["2019-01-01"], "y": [56], "type": "scatter", "uid": "4104ac56-36aa-11e9-9680-42010a1400df"}], {"height": 100, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "rgba(0,0, 0, 0)", "font": {"color": "#BFCBD6", "family": "monospace", "size": 13}}, "margin": {"b": 40, "l": 10, "pad": 5, "r": 10, "t": 30}, "showlegend": false, "width": 153, "xaxis": {"autorange": true, "hoverformat": "%b %y", "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}, "yaxis": {"range": [50.4, 81.9], "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+          <p class="description">of the top 10,000 sites seen loading the The Movie DB tracker</p>
+      </div>
+      <p class="subtitle">
+        
+          Data from May 2018 to January 2019.
+        
+      </p>
+    </div>
+
+
+    <!-- Right COLUMN -->
+    <div class="col-md-6 col-sm-6">
+          <h3>SEEN ON THESE TYPES OF WEBSITES</h3>
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">88% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="111.11111111111111" aria-valuemin="0" aria-valuemax="100" style="width: 111.11111111111111%">
+                Entertainment
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">11% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="13.88888888888889" aria-valuemin="0" aria-valuemax="100" style="width: 13.88888888888889%">
+                Business
+                </div>
+              </div>
+            </div>
+            
+          
+
+          <h3>TRACKING TYPE</h3>
+          <div class="row tracking-methods">
+            
+              <div  class="col-md-8" >
+                <img src="../static/img/cookies.svg">
+<p class="tracking-method">
+  <span class="highlight">COOKIES</span> are files placed by the website, stored in the browser
+  that is used to identify you to the website. <div>
+    <a class="learn-more" href="../blog/cookies.html">
+      Learn more
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</p>
+              </div>
+            
+
+            
+            
+          </div>
+    </div>
+  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="similar-trackers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="row tracker-category">
+                        <div class="col-md-11">
+                        <h4>TRACKER CATEGORY</h4>
+                        
+                            <span class="cat-item">
+                                <i class="fa fa-circle" style="color: #80C87D" aria-hidden="true"></i>
+                                Misc
+                            </span>
+                            <p class="tracker-desc">This tracker does not fit in other categories or has not yet been labelled.</p>
+                        
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/tracker_categories.html">Learn about our tracker categories</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/what_is_a_tracker.html">What is a tracker?</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-sm-6 col-xs-12">
+                    <h4>SIMILAR TRACKERS</h4>
+                    <ul>
+                        
+                            <li>
+                                <a href="../trackers/outbrain.html" class="entity-name">
+                                Outbrain
+                                </a>
+                                
+                                    <span>
+                                        Outbrain
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/linkedin.html" class="entity-name">
+                                LinkedIn
+                                </a>
+                                
+                                    <span>
+                                        Microsoft
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/microsoft.html" class="entity-name">
+                                Microsoft Services
+                                </a>
+                                
+                                    <span>
+                                        Microsoft
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/instagram_com.html" class="entity-name">
+                                Instagram
+                                </a>
+                                
+                                    <span>
+                                        Facebook
+                                    </span>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="tag-cloud">
+        <div class="container">
+            <div class="row">
+                <h2 class="title">Presence on top sites</h2>
+                
+                    <script src="../static/js/d3.min.js"></script>
+<script src="../static/js/d3.layout.cloud.js"></script>
+
+<script>
+        function sanitiseCategory(cat) {
+            return cat.replace(/\s/g, '_').toLowerCase();
+        }
+
+        function drawTagCloud(cat, siteList) {
+            var container = document.getElementById('tag_cloud_container');
+            var width = Math.max(container.offsetWidth, 300);
+            var height = Math.max(container.offsetHeight - 5, 400);
+            var containerSvg = document.getElementById('tag_cloud');
+            containerSvg.setAttribute('width', width);
+            containerSvg.setAttribute('height', height);
+
+            var sites = JSON.parse(siteList);
+            var minSize = 20;
+            var maxSize = 100;
+            var scaleFactor = (maxSize - minSize) / 0.3;
+
+            var layout = d3.layout.cloud()
+                .size([width, height])
+                .words(sites.map(function (d) {
+                    return {
+                        text: d.site.replace('www.', ''),
+                        size: Math.min(maxSize, minSize + d.frequency * scaleFactor),
+                        rotate: 0,
+                        opacity: 0.5 + (d.site_freq || 0. * 0.7),
+                        colour: d.site_cat,
+                        href: d.url,
+                        category: d.category,
+                    };
+                }))
+                .padding(3)
+                .rotate(function (d) { return 0 })
+                .font("Impact")
+                .fontSize(function (d) { return d.size; })
+                .on("end", draw);
+
+            layout.start();
+
+            function draw(words) {
+                d3.select('#tag_cloud')
+                    .append("g")
+                    .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .style("font-size", function (d) { return d.size + "px"; })
+                    .style("font-family", "Helvetica")
+                    .style("fill", function (d) { return d.colour })
+                    .attr("class", function (d) { return "category-" + sanitiseCategory(d.category) })
+                    .attr("opacity", function (d) { return d.opacity })
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                    })
+                    .insert('a')
+                    .attr("href", function (d) { return d.href })
+                    .text(function (d) { return d.text; });
+            }
+        }
+
+        var activeCategories = [];
+
+        function toggleTagCloudCategory(cat) {
+            if (cat === "all") {
+                // unselect buttons
+                activeCategories.forEach(function(otherCat) {
+                    document.getElementById('button-' + otherCat).classList.remove('active');
+                });
+                document.getElementById('button-all').classList.add('active');
+                // make everything visible
+                d3.selectAll("#tag_cloud text").style("visibility", "visible");
+                activeCategories = [];
+            } else {
+                document.getElementById('button-all').classList.remove('active');
+                document.getElementById('button-' + cat).classList.add('active');
+
+                if (activeCategories.length === 0) {
+                    // hide everything
+                    d3.selectAll("#tag_cloud text").style("visibility", "hidden");
+                }
+                // make just elements from specified categories visible
+                d3.selectAll("#tag_cloud text.category-" + sanitiseCategory(cat)).style("visibility", "visible");
+                activeCategories.push(cat);
+            }
+        }
+    </script>
+
+
+<ul class="nav nav-tabs">
+    <li class="active" id="button-all">
+        <a href="#all" onclick="toggleTagCloudCategory('all')">Show all</a>
+    </li>
+    
+        
+    
+        
+            <li id="button-Business">
+                <a href="#Business" onclick="toggleTagCloudCategory('Business')">Business</a>
+            </li>
+        
+    
+        
+            <li id="button-Entertainment">
+                <a href="#Entertainment" onclick="toggleTagCloudCategory('Entertainment')">Entertainment</a>
+            </li>
+        
+    
+</ul>
+
+<div class="tab-content">
+    <div id="tag_cloud_container" class="tab-pane fade in active">
+        <svg id="tag_cloud" height=400></svg>
+        <script>drawTagCloud('all', '[{"category": "Entertainment", "frequency": 0.03435992011353333, "site": "hdss.to", "site_cat": "#B8B8B8", "site_freq": 0.9390657655456939, "url": "../websites/hdss.to.html"}, {"category": "Business", "frequency": 0.027656369019066887, "site": "filelist.ro", "site_cat": "blue", "site_freq": 0.5749205169495024, "url": "../websites/filelist.ro.html"}, {"category": "Entertainment", "frequency": 0.026653319151598572, "site": "pelisplus.to", "site_cat": "#B8B8B8", "site_freq": 0.9022389564983527, "url": "../websites/pelisplus.to.html"}, {"category": "", "frequency": 0.02447044429150417, "site": "themoviedb.org", "site_cat": "#000", "site_freq": 0.8785253324776269, "url": null}, {"category": "Entertainment", "frequency": 0.02429466228502705, "site": "filmeserialeonline.org", "site_cat": "#B8B8B8", "site_freq": 0.9291981615831656, "url": "../websites/filmeserialeonline.org.html"}, {"category": "", "frequency": 0.013954310581977478, "site": "repelis.live", "site_cat": "#000", "site_freq": 0.9280100389670431, "url": null}, {"category": "", "frequency": 0.013078379905633862, "site": "streamay.com", "site_cat": "#000", "site_freq": 0.9422581568402977, "url": null}, {"category": "", "frequency": 0.011613529851657863, "site": "dadyflix.com", "site_cat": "#000", "site_freq": 0.9371694181759898, "url": null}, {"category": "", "frequency": 0.010981906370757025, "site": "filmesonlinehd7.cc", "site_cat": "#000", "site_freq": 0.9334796555799426, "url": null}, {"category": "", "frequency": 0.01093820914880791, "site": "illimitestreaming.com", "site_cat": "#000", "site_freq": 0.9356894061677002, "url": null}, {"category": "", "frequency": 0.010785268871986008, "site": "fmovie.cc", "site_cat": "#000", "site_freq": 0.7415500170706726, "url": null}, {"category": "", "frequency": 0.010707805614894397, "site": "flixtor.to", "site_cat": "#000", "site_freq": 0.7843736359668267, "url": null}, {"category": "", "frequency": 0.010661129036903296, "site": "gostream.site", "site_cat": "#000", "site_freq": 0.8783341515300278, "url": null}, {"category": "", "frequency": 0.010359220957982142, "site": "cda-hd.cc", "site_cat": "#000", "site_freq": 0.9196790689472756, "url": null}, {"category": "", "frequency": 0.009579622793662711, "site": "voirfilms.al", "site_cat": "#000", "site_freq": 0.8429607620379271, "url": null}, {"category": "", "frequency": 0.00882882507108247, "site": "ganol.si", "site_cat": "#000", "site_freq": 0.8870484933147077, "url": null}, {"category": "", "frequency": 0.007831733915698127, "site": "indoxxi.bz", "site_cat": "#000", "site_freq": 0.7422816265060241, "url": null}, {"category": "", "frequency": 0.00751691529392837, "site": "1putlocker.io", "site_cat": "#000", "site_freq": 0.913358271992277, "url": null}, {"category": "", "frequency": 0.00749308044559249, "site": "123movies.cafe", "site_cat": "#000", "site_freq": 0.9153220914715516, "url": null}, {"category": "", "frequency": 0.0072875048786955185, "site": "danimados.com", "site_cat": "#000", "site_freq": 0.8997057381069151, "url": null}, {"category": "", "frequency": 0.007196137960074643, "site": "french-stream.fr", "site_cat": "#000", "site_freq": 0.552960927960928, "url": null}, {"category": "", "frequency": 0.00668468183953387, "site": "streamcomplet.ws", "site_cat": "#000", "site_freq": 0.9532644101402068, "url": null}, {"category": "Entertainment", "frequency": 0.006421505389158521, "site": "123movie.cc", "site_cat": "#B8B8B8", "site_freq": 0.8661754855994641, "url": "../websites/123movie.cc.html"}, {"category": "", "frequency": 0.006226854127748828, "site": "werstreamt.es", "site_cat": "#000", "site_freq": 0.8883536412581468, "url": null}, {"category": "", "frequency": 0.00610470053002744, "site": "seehd.uno", "site_cat": "#000", "site_freq": 0.568534961154273, "url": null}, {"category": "", "frequency": 0.005923952930147011, "site": "openloadmovies.net", "site_cat": "#000", "site_freq": 0.8982081011895798, "url": null}, {"category": "Entertainment", "frequency": 0.005738239736863274, "site": "elitetorrent.biz", "site_cat": "#B8B8B8", "site_freq": 0.17735350992970933, "url": "../websites/elitetorrent.biz.html"}, {"category": "", "frequency": 0.005733274143459966, "site": "miradetodo.net", "site_cat": "#000", "site_freq": 0.8166643089545904, "url": null}, {"category": "", "frequency": 0.00511456120540773, "site": "fanpelis.com", "site_cat": "#000", "site_freq": 0.9406392694063926, "url": null}, {"category": "", "frequency": 0.005111581849365745, "site": "film-streaming-hd.co", "site_cat": "#000", "site_freq": 0.9212457490603186, "url": null}, {"category": "", "frequency": 0.004807687533083266, "site": "onlinefilmekingyen.com", "site_cat": "#000", "site_freq": 0.9282837967401726, "url": null}, {"category": "", "frequency": 0.004687520172723201, "site": "official-film-illimite.ws", "site_cat": "#000", "site_freq": 0.48420188756668037, "url": null}, {"category": "", "frequency": 0.004542524845346593, "site": "720p-izle.com", "site_cat": "#000", "site_freq": 0.32927794975163777, "url": null}, {"category": "", "frequency": 0.004527628065136668, "site": "vexmovies.org", "site_cat": "#000", "site_freq": 0.8854146436201205, "url": null}, {"category": "", "frequency": 0.004453144164087041, "site": "123movies.actor", "site_cat": "#000", "site_freq": 0.9042145593869731, "url": null}, {"category": "", "frequency": 0.004407460704776603, "site": "movs4u.tv", "site_cat": "#000", "site_freq": 0.8117797695262484, "url": null}, {"category": "", "frequency": 0.0043836258564407225, "site": "gofilmes.me", "site_cat": "#000", "site_freq": 0.9351694915254237, "url": null}, {"category": "", "frequency": 0.004367735957550135, "site": "movie4k.is", "site_cat": "#000", "site_freq": 0.9311878043616345, "url": null}, {"category": "", "frequency": 0.0042972245312231545, "site": "pepecine.me", "site_cat": "#000", "site_freq": 0.7639477401129944, "url": null}, {"category": "", "frequency": 0.004292258937819846, "site": "gratflix.com", "site_cat": "#000", "site_freq": 0.9242942686056459, "url": null}, {"category": "Entertainment", "frequency": 0.00428232775101323, "site": "letterboxd.com", "site_cat": "#B8B8B8", "site_freq": 0.06496323972520188, "url": "../websites/letterboxd.com.html"}, {"category": "", "frequency": 0.004265444733441981, "site": "hentaimama.com", "site_cat": "#000", "site_freq": 0.329573357888275, "url": null}, {"category": "", "frequency": 0.004248561715870731, "site": "cinemay.ws", "site_cat": "#000", "site_freq": 0.37858407079646017, "url": null}, {"category": "", "frequency": 0.004107538863216771, "site": "channelmyanmar.org", "site_cat": "#000", "site_freq": 0.9044390990596982, "url": null}, {"category": "", "frequency": 0.004080724658838905, "site": "ddlfr.pw", "site_cat": "#000", "site_freq": 0.38301640566741235, "url": null}, {"category": "", "frequency": 0.003981412790772736, "site": "cinetux.to", "site_cat": "#000", "site_freq": 0.9161334552102377, "url": null}, {"category": "", "frequency": 0.003965522891882149, "site": "fmovies.film", "site_cat": "#000", "site_freq": 0.8026130653266331, "url": null}, {"category": "", "frequency": 0.00389004587215186, "site": "poseidonhd.com", "site_cat": "#000", "site_freq": 0.7022230190032269, "url": null}, {"category": "", "frequency": 0.0038880596347905362, "site": "ilgeniodellostreaming.red", "site_cat": "#000", "site_freq": 0.5577717623593105, "url": null}, {"category": "", "frequency": 0.0038821009227065664, "site": "opensubtitles.com", "site_cat": "#000", "site_freq": 0.8252058264724509, "url": null}, {"category": "", "frequency": 0.0038791215666645813, "site": "libertyland.al", "site_cat": "#000", "site_freq": 0.8070247933884298, "url": null}, {"category": "", "frequency": 0.003873162854580611, "site": "movieparadise.org", "site_cat": "#000", "site_freq": 0.9762202753441802, "url": null}, {"category": "", "frequency": 0.003757961087623854, "site": "cuevana2.com", "site_cat": "#000", "site_freq": 0.18208064671350208, "url": null}, {"category": "", "frequency": 0.0036924152547001825, "site": "ocine.co", "site_cat": "#000", "site_freq": 0.6228849053442788, "url": null}, {"category": "", "frequency": 0.0036765253558095953, "site": "ahdfilmesonline.com", "site_cat": "#000", "site_freq": 0.9407878017789072, "url": null}, {"category": "", "frequency": 0.00366162857559967, "site": "vivatorrents.com", "site_cat": "#000", "site_freq": 0.9412815930559101, "url": null}, {"category": "", "frequency": 0.003653683626154376, "site": "peliculasyseries.org", "site_cat": "#000", "site_freq": 0.9821142552055526, "url": null}, {"category": "", "frequency": 0.003354754903275206, "site": "gomovies.film", "site_cat": "#000", "site_freq": 0.8046688899475941, "url": null}, {"category": "", "frequency": 0.0033378718857039573, "site": "primewire.site", "site_cat": "#000", "site_freq": 0.2262537866038371, "url": null}, {"category": "Entertainment", "frequency": 0.003194862795688673, "site": "cimaclub.com", "site_cat": "#B8B8B8", "site_freq": 0.09128053797917317, "url": "../websites/cimaclub.com.html"}, {"category": "", "frequency": 0.003188904083604703, "site": "inkapelis.com", "site_cat": "#000", "site_freq": 0.9514074074074074, "url": null}, {"category": "", "frequency": 0.0030826403847739017, "site": "vezi-online.org", "site_cat": "#000", "site_freq": 0.9666770476487075, "url": null}, {"category": "", "frequency": 0.0030766816726899315, "site": "putlocker-hd.is", "site_cat": "#000", "site_freq": 0.5413244801677441, "url": null}, {"category": "", "frequency": 0.0030667504858833145, "site": "quedustreaming.com", "site_cat": "#000", "site_freq": 0.29925380366314563, "url": null}, {"category": "", "frequency": 0.0029992184155983193, "site": "cda-tv.pl", "site_cat": "#000", "site_freq": 0.9249617151607963, "url": null}, {"category": "", "frequency": 0.0029992184155983193, "site": "putlockerhd.is", "site_cat": "#000", "site_freq": 0.80878414568827, "url": null}, {"category": "", "frequency": 0.002951548718926558, "site": "123movie.gl", "site_cat": "#000", "site_freq": 0.8637024120895088, "url": null}, {"category": "", "frequency": 0.0029148033277420753, "site": "hdmovie8.com", "site_cat": "#000", "site_freq": 0.8970048899755502, "url": null}, {"category": "", "frequency": 0.002831381358566493, "site": "megafilmeshd.co", "site_cat": "#000", "site_freq": 0.9535117056856187, "url": null}, {"category": "", "frequency": 0.002775766712449438, "site": "filmstreaming.to", "site_cat": "#000", "site_freq": 0.6650011896264573, "url": null}, {"category": "", "frequency": 0.0027648424069621593, "site": "nanime.in", "site_cat": "#000", "site_freq": 0.8200294550810014, "url": null}, {"category": "", "frequency": 0.00273604196522297, "site": "hds-streaming.com", "site_cat": "#000", "site_freq": 0.4939046253137325, "url": null}, {"category": "", "frequency": 0.002634743859795477, "site": "torrentdosfilmeshd.net", "site_cat": "#000", "site_freq": 0.6689359556227937, "url": null}, {"category": "", "frequency": 0.0026009778246529796, "site": "ymovies.tv", "site_cat": "#000", "site_freq": 0.1817109553874974, "url": null}, {"category": "", "frequency": 0.002583101688401069, "site": "ibogiv.com", "site_cat": "#000", "site_freq": 0.5258794985847149, "url": null}, {"category": "", "frequency": 0.0025066315499901186, "site": "playhub00.io", "site_cat": "#000", "site_freq": 0.8673539518900344, "url": null}, {"category": "", "frequency": 0.0025036521939481335, "site": "film4kstream.com", "site_cat": "#000", "site_freq": 0.899393506956832, "url": null}, {"category": "", "frequency": 0.0024778311082509293, "site": "pirvox.com", "site_cat": "#000", "site_freq": 0.4447415329768271, "url": null}, {"category": "", "frequency": 0.002427182055537183, "site": "ver-pelis.me", "site_cat": "#000", "site_freq": 0.8926223520818115, "url": null}, {"category": "", "frequency": 0.0024112921566465956, "site": "seriesenlinea.net", "site_cat": "#000", "site_freq": 0.9458511881573821, "url": null}, {"category": "", "frequency": 0.0023954022577560084, "site": "pirkip.com", "site_cat": "#000", "site_freq": 0.48905109489051096, "url": null}, {"category": "", "frequency": 0.0023795123588654216, "site": "altadefinizione01.band", "site_cat": "#000", "site_freq": 0.9304854368932038, "url": null}, {"category": "", "frequency": 0.0023288633061516752, "site": "cartelmovies.tv", "site_cat": "#000", "site_freq": 0.9324055666003976, "url": null}, {"category": "", "frequency": 0.0022653037105893267, "site": "subz.xyz", "site_cat": "#000", "site_freq": 0.9295028524857376, "url": null}, {"category": "", "frequency": 0.0022553725237827098, "site": "kseries.net", "site_cat": "#000", "site_freq": 0.5096499102333932, "url": null}, {"category": "", "frequency": 0.0021808886227330823, "site": "bajuineros.tv", "site_cat": "#000", "site_freq": 0.8598277212216131, "url": null}, {"category": "", "frequency": 0.0021481157062712467, "site": "jetanimes.com", "site_cat": "#000", "site_freq": 0.7803030303030303, "url": null}, {"category": "", "frequency": 0.002130239570019336, "site": "watch4hd.com", "site_cat": "#000", "site_freq": 0.8959899749373433, "url": null}, {"category": "", "frequency": 0.002120308383212719, "site": "yifymovies.tv", "site_cat": "#000", "site_freq": 0.9364035087719298, "url": null}, {"category": "", "frequency": 0.0020895217041122065, "site": "thenightseries.net", "site_cat": "#000", "site_freq": 0.5254745254745254, "url": null}, {"category": "", "frequency": 0.002083562992028236, "site": "lookmovie.ag", "site_cat": "#000", "site_freq": 0.7810871183916605, "url": null}, {"category": "", "frequency": 0.0020795905173055895, "site": "inkaseries.net", "site_cat": "#000", "site_freq": 0.9483695652173914, "url": null}, {"category": "", "frequency": 0.002078597398624928, "site": "listchallenges.com", "site_cat": "#000", "site_freq": 0.4581873905429072, "url": null}, {"category": "", "frequency": 0.002068666211818311, "site": "tainiesonlinetv.com", "site_cat": "#000", "site_freq": 0.4304608390163257, "url": null}, {"category": "", "frequency": 0.0020507900755664006, "site": "openloadtvstream.me", "site_cat": "#000", "site_freq": 0.5447111580058032, "url": null}, {"category": "", "frequency": 0.0020428451261211068, "site": "onlinemovie.gr", "site_cat": "#000", "site_freq": 0.9607659971975713, "url": null}, {"category": "", "frequency": 0.0020249689898691964, "site": "filmovi24h.com", "site_cat": "#000", "site_freq": 0.9348922512608895, "url": null}, {"category": "", "frequency": 0.0020180171591045646, "site": "wawa-stream.com", "site_cat": "#000", "site_freq": 0.45155555555555554, "url": null}, {"category": "", "frequency": 0.002004113497575301, "site": "planetevideos.com", "site_cat": "#000", "site_freq": 0.10262930376849921, "url": null}, {"category": "", "frequency": 0.0019892167173653752, "site": "baixarfilmetorrent.com", "site_cat": "#000", "site_freq": 0.8918076580587712, "url": null}, {"category": "", "frequency": 0.0019365814272903055, "site": "filmapik.info", "site_cat": "#000", "site_freq": 0.764406115248922, "url": null}, {"category": "", "frequency": 0.0019157259349964098, "site": "putlockerr.is", "site_cat": "#000", "site_freq": 0.8368763557483732, "url": null}, {"category": "", "frequency": 0.001898842917425161, "site": "novamovie.net", "site_cat": "#000", "site_freq": 0.9470034670629024, "url": null}, {"category": "", "frequency": 0.0018879186119378825, "site": "streamzzz.top", "site_cat": "#000", "site_freq": 0.6589254766031196, "url": null}, {"category": "", "frequency": 0.0018849392558958973, "site": "radego.com", "site_cat": "#000", "site_freq": 0.48295165394402034, "url": null}, {"category": "", "frequency": 0.001878980543811927, "site": "streamiz-hd.xyz", "site_cat": "#000", "site_freq": 0.5190672153635116, "url": null}, {"category": "", "frequency": 0.0018740149504086186, "site": "gledajseriju.com", "site_cat": "#000", "site_freq": 0.9204878048780488, "url": null}, {"category": "", "frequency": 0.0018193934229722255, "site": "youwatch-series.com", "site_cat": "#000", "site_freq": 0.16895693073872545, "url": null}, {"category": "", "frequency": 0.0018114484735269319, "site": "megahfilmeshd.net", "site_cat": "#000", "site_freq": 0.8607833883907503, "url": null}, {"category": "", "frequency": 0.0017707306076198024, "site": "diagrim.com", "site_cat": "#000", "site_freq": 0.47955890263582573, "url": null}, {"category": "", "frequency": 0.0017439164032419367, "site": "primewire.red", "site_cat": "#000", "site_freq": 0.8922764227642277, "url": null}, {"category": "", "frequency": 0.0017389508098386282, "site": "filmsenzalimiti.media", "site_cat": "#000", "site_freq": 0.9284199363732768, "url": null}, {"category": "", "frequency": 0.001735971453796643, "site": "go123movies.io", "site_cat": "#000", "site_freq": 0.92, "url": null}, {"category": "", "frequency": 0.0017339852164353197, "site": "ozgon.com", "site_cat": "#000", "site_freq": 0.4829875518672199, "url": null}, {"category": "", "frequency": 0.001707171012057454, "site": "openloadmovie.org", "site_cat": "#000", "site_freq": 0.8879132231404959, "url": null}, {"category": "", "frequency": 0.0017012122999734837, "site": "topfilmeonline.net", "site_cat": "#000", "site_freq": 0.421505905511811, "url": null}, {"category": "", "frequency": 0.0016992260626121603, "site": "kino.cx", "site_cat": "#000", "site_freq": 0.7237732656514383, "url": null}, {"category": "", "frequency": 0.0016694325021923094, "site": "fsonline.ro", "site_cat": "#000", "site_freq": 0.827263779527559, "url": null}, {"category": "", "frequency": 0.001648577009898414, "site": "ilgeniodellostreaming.app", "site_cat": "#000", "site_freq": 0.5779944289693594, "url": null}, {"category": "", "frequency": 0.0016436114164951054, "site": "toblek.com", "site_cat": "#000", "site_freq": 0.4673820954532618, "url": null}, {"category": "", "frequency": 0.0016406320604531203, "site": "cinogen.net", "site_cat": "#000", "site_freq": 0.875, "url": null}, {"category": "", "frequency": 0.0016366595857304736, "site": "ondertitel.com", "site_cat": "#000", "site_freq": 0.6704637917005696, "url": null}, {"category": "", "frequency": 0.0016217628055205482, "site": "putlocker.ninja", "site_cat": "#000", "site_freq": 0.821015585721468, "url": null}, {"category": "", "frequency": 0.0015889898890587121, "site": "repelis.online", "site_cat": "#000", "site_freq": 0.9280742459396751, "url": null}, {"category": "", "frequency": 0.0015889898890587121, "site": "zonatorrent.tv", "site_cat": "#000", "site_freq": 0.7909045971329708, "url": null}, {"category": "", "frequency": 0.001583031176974742, "site": "filme-seriale.net", "site_cat": "#000", "site_freq": 0.9020939445387662, "url": null}, {"category": "", "frequency": 0.001580051820932757, "site": "animeidhentai.com", "site_cat": "#000", "site_freq": 0.23665030492339728, "url": null}, {"category": "", "frequency": 0.0015721068714874633, "site": "putlockers.movie", "site_cat": "#000", "site_freq": 0.8031456113647895, "url": null}, {"category": "", "frequency": 0.0015572100912775379, "site": "openloadfreetv.me", "site_cat": "#000", "site_freq": 0.4338682899833979, "url": null}, {"category": "", "frequency": 0.001550258260512906, "site": "yakastream.com", "site_cat": "#000", "site_freq": 0.8220115850447604, "url": null}, {"category": "", "frequency": 0.0015303958868996721, "site": "123moviesfree.ws", "site_cat": "#000", "site_freq": 0.9059376837154615, "url": null}, {"category": "", "frequency": 0.0015294027682190106, "site": "moviego.ch", "site_cat": "#000", "site_freq": 0.9134045077105575, "url": null}, {"category": "", "frequency": 0.0015264234121770254, "site": "gostreams.net", "site_cat": "#000", "site_freq": 0.22736686390532546, "url": null}, {"category": "", "frequency": 0.0015055679198831297, "site": "utorrentfilmes.net", "site_cat": "#000", "site_freq": 0.7460629921259843, "url": null}, {"category": "", "frequency": 0.0014966298517571745, "site": "123moviesnew.org", "site_cat": "#000", "site_freq": 0.7673116089613035, "url": null}, {"category": "", "frequency": 0.0014876917836312193, "site": "playview.io", "site_cat": "#000", "site_freq": 0.6986940298507462, "url": null}, {"category": "", "frequency": 0.0014767674781439406, "site": "thepiratefilmeshd.com", "site_cat": "#000", "site_freq": 0.7926439232409381, "url": null}, {"category": "", "frequency": 0.0014698156473793088, "site": "full-stream.cc", "site_cat": "#000", "site_freq": 0.9355246523388117, "url": null}, {"category": "", "frequency": 0.0014678294100179854, "site": "trozam.com", "site_cat": "#000", "site_freq": 0.47085058935966867, "url": null}, {"category": "", "frequency": 0.0014241321880688709, "site": "tvzion.com", "site_cat": "#000", "site_freq": 0.8659420289855072, "url": null}, {"category": "", "frequency": 0.001423139069388209, "site": "streamingcomplet.info", "site_cat": "#000", "site_freq": 0.6570380559376433, "url": null}, {"category": "", "frequency": 0.0014142010012622539, "site": "diziyo4.net", "site_cat": "#000", "site_freq": 0.4138331880267364, "url": null}, {"category": "", "frequency": 0.0014082422891782836, "site": "dvdgayonline.com", "site_cat": "#000", "site_freq": 0.6660403945514326, "url": null}, {"category": "", "frequency": 0.00139433862764902, "site": "simpsonizados.org", "site_cat": "#000", "site_freq": 0.42276422764227645, "url": null}, {"category": "", "frequency": 0.0013754693727164478, "site": "putlocker.kz", "site_cat": "#000", "site_freq": 0.6645873320537428, "url": null}, {"category": "", "frequency": 0.001338723981531965, "site": "gomovie.sc", "site_cat": "#000", "site_freq": 0.36071715279636074, "url": null}, {"category": "", "frequency": 0.00133574462548998, "site": "admitme.tv", "site_cat": "#000", "site_freq": 0.8073229291716687, "url": null}, {"category": "", "frequency": 0.0013327652694479948, "site": "thepiratefilmes2.com", "site_cat": "#000", "site_freq": 0.922971114167813, "url": null}, {"category": "", "frequency": 0.0013277996760446863, "site": "putlocker.cl", "site_cat": "#000", "site_freq": 0.551340206185567, "url": null}, {"category": "", "frequency": 0.001302971709028144, "site": "superflix.net", "site_cat": "#000", "site_freq": 0.8961748633879781, "url": null}, {"category": "", "frequency": 0.00127715062333094, "site": "babytorrent.lol", "site_cat": "#000", "site_freq": 0.8017456359102244, "url": null}, {"category": "", "frequency": 0.0012612607244403527, "site": "onliseries.com", "site_cat": "#000", "site_freq": 0.782983970406905, "url": null}, {"category": "", "frequency": 0.0012562951310370442, "site": "pelisplus.online", "site_cat": "#000", "site_freq": 0.7463126843657817, "url": null}, {"category": "", "frequency": 0.0012543088936757209, "site": "123movieshub.com", "site_cat": "#000", "site_freq": 0.7908578584846587, "url": null}, {"category": "", "frequency": 0.0012493433002724124, "site": "ooviv.com", "site_cat": "#000", "site_freq": 0.4264406779661017, "url": null}, {"category": "", "frequency": 0.0012265015706171935, "site": "poseidonhd.io", "site_cat": "#000", "site_freq": 0.6379132231404959, "url": null}, {"category": "", "frequency": 0.0012195497398525617, "site": "filmesonline.vip", "site_cat": "#000", "site_freq": 0.9233082706766917, "url": null}, {"category": "", "frequency": 0.0012125979090879297, "site": "scenefz.me", "site_cat": "#000", "site_freq": 0.24366393933346636, "url": null}, {"category": "", "frequency": 0.0012125979090879297, "site": "filmesonlinehd1.net", "site_cat": "#000", "site_freq": 0.45071982281284606, "url": null}, {"category": "", "frequency": 0.001208625434365283, "site": "ultrapeliculashd.com", "site_cat": "#000", "site_freq": 0.5541894353369763, "url": null}, {"category": "", "frequency": 0.0012066391970039596, "site": "hd-only.org", "site_cat": "#000", "site_freq": 0.4923014586709887, "url": null}, {"category": "", "frequency": 0.0012066391970039596, "site": "galtro.com", "site_cat": "#000", "site_freq": 0.4785348562426152, "url": null}, {"category": "", "frequency": 0.0011818112299874172, "site": "tainies4k.online", "site_cat": "#000", "site_freq": 0.9558232931726908, "url": null}, {"category": "", "frequency": 0.001178831873945432, "site": "filmotopia.org", "site_cat": "#000", "site_freq": 0.9383399209486166, "url": null}, {"category": "", "frequency": 0.0011748593992227854, "site": "topulor.com", "site_cat": "#000", "site_freq": 0.5515151515151515, "url": null}, {"category": "", "frequency": 0.0011708869245001384, "site": "naturalbd.com", "site_cat": "#000", "site_freq": 0.8314527503526093, "url": null}, {"category": "", "frequency": 0.0011679075684581535, "site": "getimov.com", "site_cat": "#000", "site_freq": 0.4575875486381323, "url": null}, {"category": "", "frequency": 0.0011639350937355066, "site": "mastorrents.com", "site_cat": "#000", "site_freq": 0.9272151898734177, "url": null}, {"category": "", "frequency": 0.001162941975054845, "site": "elokuvat.tv", "site_cat": "#000", "site_freq": 0.9629934210526315, "url": null}, {"category": "Entertainment", "frequency": 0.0011440727201222727, "site": "filmcomplet.la", "site_cat": "#B8B8B8", "site_freq": 0.034401409502194884, "url": "../websites/filmcomplet.la.html"}, {"category": "", "frequency": 0.0011420864827609493, "site": "pelisgratis.me", "site_cat": "#000", "site_freq": 0.9480626545754328, "url": null}, {"category": "", "frequency": 0.0011420864827609493, "site": "wobno.com", "site_cat": "#000", "site_freq": 0.504828797190518, "url": null}, {"category": "", "frequency": 0.0011252034651897005, "site": "kdramahood.com", "site_cat": "#000", "site_freq": 0.825801749271137, "url": null}, {"category": "", "frequency": 0.001094416786089188, "site": "repelishd.co", "site_cat": "#000", "site_freq": 0.928390901432182, "url": null}, {"category": "", "frequency": 0.0010934236674085263, "site": "gudangmovies21.fun", "site_cat": "#000", "site_freq": 0.8958502847843776, "url": null}, {"category": "", "frequency": 0.0010904443113665411, "site": "bonoov.com", "site_cat": "#000", "site_freq": 0.4571190674437968, "url": null}, {"category": "", "frequency": 0.0010894511926858796, "site": "swesub.net", "site_cat": "#000", "site_freq": 0.9088649544324772, "url": null}, {"category": "", "frequency": 0.0010795200058792626, "site": "seuseriado.com", "site_cat": "#000", "site_freq": 0.1911712979247274, "url": null}, {"category": "", "frequency": 0.0010596576322660287, "site": "ciberpeliculashd.net", "site_cat": "#000", "site_freq": 0.7414871438498958, "url": null}, {"category": "", "frequency": 0.0010576713949047053, "site": "cb01.fun", "site_cat": "#000", "site_freq": 0.8506389776357828, "url": null}, {"category": "", "frequency": 0.0010497264454594117, "site": "streamtajm.com", "site_cat": "#000", "site_freq": 0.8093415007656968, "url": null}, {"category": "", "frequency": 0.00104873332677875, "site": "hdf.world", "site_cat": "#000", "site_freq": 0.39759036144578314, "url": null}, {"category": "", "frequency": 0.0010467470894174266, "site": "movie4u.live", "site_cat": "#000", "site_freq": 0.6247777119146414, "url": null}, {"category": "", "frequency": 0.001041781496014118, "site": "filmeonline2016.biz", "site_cat": "#000", "site_freq": 0.3669115075201119, "url": null}, {"category": "", "frequency": 0.0010388021399721332, "site": "0123moviehd.com", "site_cat": "#000", "site_freq": 0.8114817688130334, "url": null}, {"category": "", "frequency": 0.0010378090212914714, "site": "animeshouse.net", "site_cat": "#000", "site_freq": 0.4931571495988674, "url": null}, {"category": "", "frequency": 0.001032843427888163, "site": "mondolunatico.org", "site_cat": "#000", "site_freq": 0.8221343873517787, "url": null}, {"category": "", "frequency": 0.0010149672916362523, "site": "grabthebeast.com", "site_cat": "#000", "site_freq": 0.9515828677839852, "url": null}, {"category": "", "frequency": 0.0010149672916362523, "site": "vedohd.org", "site_cat": "#000", "site_freq": 0.949814126394052, "url": null}, {"category": "", "frequency": 0.0010100016982329439, "site": "inkapelis.to", "site_cat": "#000", "site_freq": 0.9741379310344828, "url": null}]')</script>
+    </div>
+
+</div>
+                
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>The Movie DB</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul>
+          <li>
+            <i class="fa fa fa-github"></i>
+            <a target="_blank" rel="noreferrer" href="https://github.com/cliqz-oss/whotracks.me">
+              Get the data
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-twitter"></i>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/WhoTracks_me">
+              @WhoTracks_me
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-rss"></i>
+            <a target="_blank" type="application/rss+xml" href="/blog/feed.xml">
+              RSS
+            </a>
+          </li>
+
+          <li>
+            <i class="fa fa fa-balance-scale"></i>
+            <a href="/privacy-policy.html">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul class="margin-left">
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/about">
+              About
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/download">
+              Cliqz browser
+            </a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://www.ghostery.com/en/products/">
+              Ghostery add-on
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12 logos">
+        <a href="https://cliqz.com/en/" target="_blank">
+          <span class="cliqz-logo"></span>
+        </a>
+        <a href="https://www.ghostery.com/" target="_blank">
+          <span class="ghostery-logo"></span>
+        </a>
+
+        <div class="copyright">
+          &copy; Cliqz - All rights reserved.
+        </div>
+        <div>Last updated on 22.02.2019</div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Local javascript modules -->
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../static/js/search.js"></script>
+
+
+</footer>
+<!-- END OF FOOTER -->
